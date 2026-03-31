@@ -43,6 +43,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "NORMAL",
       "confidence": 0.85
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "SIZE_ISSUE",
+      "confidence": 0.9,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -91,6 +101,16 @@
       "flow_type": "PRE_DELIVERY",
       "priority": "HIGH",
       "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "PRODUCT_ISSUE",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.8,
+      "needs_clarification": true,
+      "clarification_question": "We could not confirm your delivery status. Has your order been delivered? Please provide delivery details.",
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -139,6 +159,18 @@
       "flow_type": "DELIVERY_TRACKING",
       "priority": "NORMAL",
       "confidence": 0.75
+    },
+    "triage": {
+      "final_intent": "DELIVERY_ISSUE",
+      "final_issue_type": "NOT_DELIVERED",
+      "confidence": 0.75,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [
+        "category"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -187,6 +219,16 @@
       "flow_type": "GENERAL_SUPPORT",
       "priority": "BLOCKED",
       "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "PRODUCT_ISSUE",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -235,6 +277,16 @@
       "flow_type": "GENERAL_SUPPORT",
       "priority": "BLOCKED",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "CANCELLATION_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -285,6 +337,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "NORMAL",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.55,
+      "needs_clarification": true,
+      "clarification_question": "This item is marked as Final Sale and may not be eligible for return. Could you clarify the reason for your return request?",
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -333,6 +395,18 @@
       "flow_type": "GENERAL_SUPPORT",
       "priority": "NORMAL",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "GENERAL_QUERY",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.55,
+      "needs_clarification": true,
+      "clarification_question": "Can you describe what issue you're facing with the product?",
+      "missing_fields": [
+        "intent"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -379,6 +453,16 @@
       "flow_type": "GENERAL_SUPPORT",
       "priority": "NORMAL",
       "confidence": 0.85
+    },
+    "triage": {
+      "final_intent": "GENERAL_QUERY",
+      "final_issue_type": "CUSTOMER_DISSATISFACTION",
+      "confidence": 0.9,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -425,6 +509,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "HIGH",
       "confidence": 0.7
+    },
+    "triage": {
+      "final_intent": "REFUND_REQUEST",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.6,
+      "needs_clarification": true,
+      "clarification_question": "Can you confirm if you want a refund, return, or replacement?",
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -471,6 +565,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "NORMAL",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -519,6 +623,16 @@
       "flow_type": "GENERAL_SUPPORT",
       "priority": "HIGH",
       "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "PRODUCT_ISSUE",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -567,6 +681,18 @@
       "flow_type": "GENERAL_SUPPORT",
       "priority": "NORMAL",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "GENERAL_QUERY",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.55,
+      "needs_clarification": true,
+      "clarification_question": "Can you describe what issue you're facing with the product?",
+      "missing_fields": [
+        "intent"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -615,6 +741,16 @@
       "flow_type": "GENERAL_SUPPORT",
       "priority": "HIGH",
       "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "PRODUCT_ISSUE",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -661,6 +797,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "HIGH",
       "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "REFUND_REQUEST",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -707,6 +853,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "HIGH",
       "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "REFUND_REQUEST",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -753,6 +909,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "HIGH",
       "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "REFUND_REQUEST",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -799,6 +965,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "NORMAL",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "REFUND_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -849,6 +1025,18 @@
       "flow_type": "GENERAL_SUPPORT",
       "priority": "NORMAL",
       "confidence": 0.3
+    },
+    "triage": {
+      "final_intent": "GENERAL_QUERY",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.3,
+      "needs_clarification": true,
+      "clarification_question": "Can you please provide more details about your request?",
+      "missing_fields": [
+        "intent"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -899,6 +1087,18 @@
       "flow_type": "GENERAL_SUPPORT",
       "priority": "NORMAL",
       "confidence": 0.3
+    },
+    "triage": {
+      "final_intent": "GENERAL_QUERY",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.3,
+      "needs_clarification": true,
+      "clarification_question": "Can you please provide more details about your request?",
+      "missing_fields": [
+        "intent"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -947,6 +1147,16 @@
       "flow_type": "DELIVERY_TRACKING",
       "priority": "BLOCKED",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "DELIVERY_ISSUE",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -995,6 +1205,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "HIGH",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -1043,6 +1263,18 @@
       "flow_type": "PRE_DELIVERY",
       "priority": "NORMAL",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.55,
+      "needs_clarification": true,
+      "clarification_question": "We could not confirm your delivery status. Has your order been delivered? Please provide delivery details.",
+      "missing_fields": [
+        "delivery_date"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -1091,6 +1323,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "NORMAL",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -1137,6 +1379,16 @@
       "flow_type": "POST_DELIVERY",
       "priority": "NORMAL",
       "confidence": 0.85
+    },
+    "triage": {
+      "final_intent": "REPLACEMENT_REQUEST",
+      "final_issue_type": "SIZE_ISSUE",
+      "confidence": 0.9,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   },
   {
@@ -1185,6 +1437,16 @@
       "flow_type": "PRE_DELIVERY",
       "priority": "NORMAL",
       "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "CANCELLATION_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.55,
+      "needs_clarification": true,
+      "clarification_question": "We could not confirm your delivery status. Has your order been delivered? Please provide delivery details.",
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
     }
   }
 ]

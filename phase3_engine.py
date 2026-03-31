@@ -18,6 +18,18 @@ def normalize(input_json):
         query = query.replace("refnd", "refund")
         query = query.replace("ordr", "order")
         query = query.replace("brok", "broken")
+        query = query.replace("brokenen", "broken")
+        query = query.replace("recieve", "receive")
+        query = query.replace("recieved", "received")
+        query = query.replace("damged", "damaged")
+        query = query.replace("defctive", "defective")
+        query = query.replace("retrun", "return")
+        query = query.replace("retrn", "return")
+        query = query.replace("cant", "cannot")
+        query = query.replace("wont", "will not")
+        query = query.replace("doesnt", "does not")
+        query = query.replace("didnt", "did not")
+        query = query.replace("wasnt", "was not")
 
     return {
         "query": query,
@@ -130,7 +142,16 @@ def derive_flags(normalized):
         flags["days_since_delivery"] = None
         flags["within_return_window"] = False
 
-    flags["can_initiate_return"] = flags["has_delivery"]
+    is_perishable = order.get("is_perishable", False)
+    is_hygiene = order.get("is_hygiene_sensitive", False)
+    within_window = flags["within_return_window"]
+    
+    if is_perishable and not within_window:
+        flags["can_initiate_return"] = False
+    elif is_hygiene and order.get("is_returnable") == False:
+        flags["can_initiate_return"] = False
+    else:
+        flags["can_initiate_return"] = flags["has_delivery"]
 
     multi_keywords = ["refund", "replace", "cancel", "return"]
     count = sum(1 for word in multi_keywords if word in query)
@@ -139,9 +160,14 @@ def derive_flags(normalized):
     flags["is_return_flow"] = any(word in query for word in ["return", "refund", "replace"])
 
     flags["has_issue_signal"] = any(word in query for word in [
-        "broken", "damaged", "defective",
-        "not working", "cracked",
-        "shattered", "faulty", "rotten", "wrong", "incorrect", "missing", "late", "not received"
+        "broken", "brokenen", "damaged", "defective", "not working", 
+        "cracked", "shattered", "faulty", "rotten", "wrong", "incorrect", 
+        "missing", "late", "not received", "spoiled", "expired", 
+        "dead on arrival", "doa", "stopped working", "wont turn on", 
+        "doesnt work", "not turning on", "broke", "fell apart", 
+        "came broken", "arrived broken", "arrived damaged", "smashed",
+        "leaking", "leaked", "spilled", "contaminated", "bad quality",
+        "not as described", "different product", "wrong item"
     ])
 
     return flags

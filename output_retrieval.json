@@ -1,0 +1,2642 @@
+[
+  {
+    "order_id": "ORD-101",
+    "normalized": {
+      "query": "i want to return this dress, it doesn't fit me well.",
+      "order": {
+        "order_id": "ORD-101",
+        "product_name": "Floral Maxi Dress",
+        "category": "Apparel",
+        "price": 59.99,
+        "purchase_date": "2026-03-15",
+        "delivery_date": "2026-03-18",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 13,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "SIZE_ISSUE",
+      "request_type": "RETURN",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.85
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "SIZE_ISSUE",
+      "confidence": 0.9,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "Exchange for size or fit issues after accepting Open Box Delivery requires a separate return or exchange request.",
+        "source": "myntra",
+        "section": "Open Box Delivery \u2014 Return and Refund Rules",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_121",
+        "score": 1.0,
+        "policy_type": "REFUND",
+        "is_top_policy": true
+      },
+      {
+        "text": "Return is eligible if the product delivered does not match the product ordered in terms of item name, variant, shade, size, or SKU.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_013",
+        "chunk_id": "DOC_013_A_18",
+        "score": 0.971,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "Item is eligible for return or refund only if the item delivered does not match the order in product, variant, or quantity.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_014",
+        "chunk_id": "DOC_014_A_8",
+        "score": 0.926,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "All products listed under a category may not have the same return policy.",
+        "source": "flipkart",
+        "section": "General Returns \u2014 Governing Rules",
+        "doc_id": "DOC_004",
+        "chunk_id": "DOC_004_A_19",
+        "score": 0.9208,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 0.7281,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 5,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-102",
+    "normalized": {
+      "query": "my item is broken and i need help.",
+      "order": {
+        "order_id": "ORD-102",
+        "product_name": "Ceramic Vase",
+        "category": "Home Decor",
+        "price": 25.0,
+        "purchase_date": "2026-03-20",
+        "delivery_date": null,
+        "return_window_days": 15,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [
+        "NO_DELIVERY_DATA"
+      ],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": false,
+      "days_since_delivery": null,
+      "within_return_window": false,
+      "can_initiate_return": false,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "PRODUCT_ISSUE",
+      "issue_type": "DAMAGED",
+      "request_type": "UNKNOWN",
+      "flow_type": "PRE_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "PRODUCT_ISSUE",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.8,
+      "needs_clarification": true,
+      "clarification_question": "We could not confirm your delivery status. Has your order been delivered? Please provide delivery details.",
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 1.0,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return if it is physically damaged.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_3",
+        "score": 0.9905,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "For damaged, defective, or wrong items on Amazon Bazaar, a full refund shall be provided.",
+        "source": "amazon",
+        "section": "Amazon Bazaar Return Policy",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_56",
+        "score": 0.9816,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "Item is eligible for return or refund only if the item was delivered in a physically damaged condition.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_014",
+        "chunk_id": "DOC_014_A_6",
+        "score": 0.9706,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "An item is eligible for return within the applicable return window if it was received physically damaged.",
+        "source": "amazon",
+        "section": "General Return Eligibility",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_2",
+        "score": 0.9665,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-103",
+    "normalized": {
+      "query": "where is my package?",
+      "order": {
+        "order_id": "ORD-103",
+        "product_name": "Wireless Mouse",
+        "category": null,
+        "price": 12.5,
+        "purchase_date": "2026-03-25",
+        "delivery_date": "2026-03-28",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [
+        "MISSING_CATEGORY"
+      ],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 3,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "DELIVERY_ISSUE",
+      "issue_type": "NOT_DELIVERED",
+      "request_type": "TRACK",
+      "flow_type": "DELIVERY_TRACKING",
+      "priority": "NORMAL",
+      "confidence": 0.75
+    },
+    "triage": {
+      "final_intent": "DELIVERY_ISSUE",
+      "final_issue_type": "NOT_DELIVERED",
+      "confidence": 0.75,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [
+        "category"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "An item is eligible for return if the item is missing and the delivery box is tampered.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_8",
+        "score": 1.0,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return or replacement if a wrong item is received.",
+        "source": "amazon",
+        "section": "Wrong Item Received",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_31",
+        "score": 0.9997,
+        "policy_type": "GENERAL",
+        "is_top_policy": true
+      },
+      {
+        "text": "Return is eligible if goods or services are delivered late from the stated delivery schedule.",
+        "source": "legal",
+        "section": "DUTIES OF INVENTORY E-COMMERCE ENTITIES",
+        "doc_id": "DOC_009",
+        "chunk_id": "DOC_009_A_62",
+        "score": 0.9895,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      },
+      {
+        "text": "Return request must be submitted within 7 days of delivery.",
+        "source": "synthetic",
+        "section": "PROCESSING TIMELINES",
+        "doc_id": "DOC_013",
+        "chunk_id": "DOC_013_A_33",
+        "score": 0.9666,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      },
+      {
+        "text": "Failure to notify non-delivery within 5 days shall be construed as a deemed delivery for that transaction.",
+        "source": "myntra",
+        "section": "Delivery Non-Receipt Claim",
+        "doc_id": "DOC_007",
+        "chunk_id": "DOC_007_A_29",
+        "score": 0.9569,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 4,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-104",
+    "normalized": {
+      "query": "the price is wrong on my receipt.",
+      "order": {
+        "order_id": "ORD-104",
+        "product_name": "Standard Widget",
+        "category": "Tools",
+        "price": -10.0,
+        "purchase_date": "2026-03-10",
+        "delivery_date": "2026-03-12",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": false,
+      "hard_errors": [
+        "NEGATIVE_PRICE"
+      ],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 19,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "PRODUCT_ISSUE",
+      "issue_type": "DAMAGED",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "BLOCKED",
+      "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "PRODUCT_ISSUE",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [],
+    "retrieval_meta": {
+      "status": "SKIPPED",
+      "reason": "Blocked case",
+      "chunk_count": 0
+    }
+  },
+  {
+    "order_id": "ORD-105",
+    "normalized": {
+      "query": "i bought this tomorrow, can i cancel?",
+      "order": {
+        "order_id": "ORD-105",
+        "product_name": "Time Machine",
+        "category": "Gizmos",
+        "price": 999.99,
+        "purchase_date": "2026-04-15",
+        "delivery_date": "2026-04-20",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": false,
+      "hard_errors": [
+        "FUTURE_PURCHASE_DATE"
+      ],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": -20,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "CANCELLATION_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "CANCEL",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "BLOCKED",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "CANCELLATION_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [],
+    "retrieval_meta": {
+      "status": "SKIPPED",
+      "reason": "Blocked case",
+      "chunk_count": 0
+    }
+  },
+  {
+    "order_id": "ORD-106",
+    "normalized": {
+      "query": "can i return this final sale item? it says returnable in the system.",
+      "order": {
+        "order_id": "ORD-106",
+        "product_name": "Clearance Boots",
+        "category": "Footwear",
+        "price": 45.0,
+        "purchase_date": "2026-02-01",
+        "delivery_date": "2026-02-05",
+        "return_window_days": 14,
+        "is_returnable": false,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": true
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [
+        "FINAL_SALE_CONFLICT"
+      ],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [
+      "FINAL_SALE_OVERRIDE"
+    ],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 54,
+      "within_return_window": false,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "RETURN",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.55,
+      "needs_clarification": true,
+      "clarification_question": "This item is marked as Final Sale and may not be eligible for return. Could you clarify the reason for your return request?",
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "Item is not eligible for return, exchange, or refund if designated as a final sale item, except as mandated by applicable law.",
+        "source": "synthetic",
+        "section": "CORE NON-RETURNABILITY RULES",
+        "doc_id": "DOC_012",
+        "chunk_id": "DOC_012_A_6",
+        "score": 1.0,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": true
+      },
+      {
+        "text": "Items marked as \"non-returnable\" on the product detail page are not eligible for return.",
+        "source": "amazon",
+        "section": "Non-Returnable Items",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_16",
+        "score": 0.9957,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return only if it is identified as \"returnable\" on the product detail page on Amazon.in.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_1",
+        "score": 0.9924,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "No exceptions beyond wrong product delivered, transit damage, and statutory rights shall be entertained for final sale items.",
+        "source": "synthetic",
+        "section": "EXCEPTIONS TO NON-RETURNABILITY",
+        "doc_id": "DOC_012",
+        "chunk_id": "DOC_012_A_20",
+        "score": 0.9735,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "Item is not eligible for return if it belongs to a non-returnable category as marked on the product page.",
+        "source": "flipkart",
+        "section": "Non-Returnable Categories",
+        "doc_id": "DOC_004",
+        "chunk_id": "DOC_004_A_72",
+        "score": 0.9658,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-107",
+    "normalized": {
+      "query": "this is bad",
+      "order": {
+        "order_id": "ORD-107",
+        "product_name": "Generic Coffee",
+        "category": "Grocery",
+        "price": 8.99,
+        "purchase_date": "2026-03-29",
+        "delivery_date": "2026-03-30",
+        "return_window_days": 7,
+        "is_returnable": true,
+        "is_perishable": true,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": [
+        "PERISHABLE_ITEM"
+      ]
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 1,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "UNKNOWN",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "GENERAL_QUERY",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.55,
+      "needs_clarification": true,
+      "clarification_question": "Can you describe what issue you're facing with the product?",
+      "missing_fields": [
+        "intent"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 1.0,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "Item is eligible for return or refund only if the item was delivered in a spoiled or inedible condition.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_014",
+        "chunk_id": "DOC_014_A_7",
+        "score": 0.9779,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return or replacement if a wrong item is received.",
+        "source": "amazon",
+        "section": "Wrong Item Received",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_31",
+        "score": 0.9651,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      },
+      {
+        "text": "An item is eligible for return within the applicable return window if it is defective.",
+        "source": "amazon",
+        "section": "General Return Eligibility",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_4",
+        "score": 0.9425,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "Return is eligible if goods or services are defective, deficient, or spurious.",
+        "source": "legal",
+        "section": "DUTIES OF SELLERS ON MARKETPLACE",
+        "doc_id": "DOC_009",
+        "chunk_id": "DOC_009_A_37",
+        "score": 0.9364,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 4,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-108",
+    "normalized": {
+      "query": "not satisfied",
+      "order": {
+        "order_id": "ORD-108",
+        "product_name": "Luxury Watch",
+        "category": "Jewelry",
+        "price": 1200.0,
+        "purchase_date": "2026-03-01",
+        "delivery_date": "2026-03-05",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 26,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "CUSTOMER_DISSATISFACTION",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "NORMAL",
+      "confidence": 0.85
+    },
+    "triage": {
+      "final_intent": "GENERAL_QUERY",
+      "final_issue_type": "CUSTOMER_DISSATISFACTION",
+      "confidence": 0.9,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "An item is eligible for return or replacement if a wrong item is received.",
+        "source": "amazon",
+        "section": "Wrong Item Received",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_31",
+        "score": 1.0,
+        "policy_type": "GENERAL",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 0.9674,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "Item is eligible for return or refund only if the item was delivered in a spoiled or inedible condition.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_014",
+        "chunk_id": "DOC_014_A_7",
+        "score": 0.9482,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "Return is not eligible in cases of buyer's remorse including incorrect model ordered, incorrect color ordered, or incorrect product ordered.",
+        "source": "amazon",
+        "section": "General Return Eligibility",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_6",
+        "score": 0.9225,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "Return is processed only if the product was not damaged while in the customer's possession.",
+        "source": "amazon",
+        "section": "Return Verification Conditions",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_11",
+        "score": 0.9225,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-109",
+    "normalized": {
+      "query": "the screen is cracked. i want refund and replacement for this tablet.",
+      "order": {
+        "order_id": "ORD-109",
+        "product_name": "Pro Tablet 10",
+        "category": "Electronics",
+        "price": 499.0,
+        "purchase_date": "2026-03-20",
+        "delivery_date": "2026-03-22",
+        "return_window_days": 15,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 9,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": true,
+      "is_return_flow": true,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REFUND_REQUEST",
+      "issue_type": "DAMAGED",
+      "request_type": "REFUND",
+      "flow_type": "POST_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.7
+    },
+    "triage": {
+      "final_intent": "REFUND_REQUEST",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.6,
+      "needs_clarification": true,
+      "clarification_question": "Can you confirm if you want a refund, return, or replacement?",
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "For damaged, defective, or wrong items on Amazon Bazaar, a full refund shall be provided.",
+        "source": "amazon",
+        "section": "Amazon Bazaar Return Policy",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_56",
+        "score": 1.0,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return if it is physically damaged.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_3",
+        "score": 0.993,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "For seller-fulfilled orders with damaged or defective items, the seller shall issue a refund only if the item cannot be repaired or replaced.",
+        "source": "amazon",
+        "section": "Seller-Fulfilled Order Refunds",
+        "doc_id": "DOC_002",
+        "chunk_id": "DOC_002_A_19",
+        "score": 0.9879,
+        "policy_type": "REFUND",
+        "is_top_policy": false
+      },
+      {
+        "text": "Refund or compensation is eligible if the product is defective in design.",
+        "source": "legal",
+        "section": "PRODUCT LIABILITY",
+        "doc_id": "DOC_008",
+        "chunk_id": "DOC_008_A_21",
+        "score": 0.9847,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      },
+      {
+        "text": "Refund or replacement is mandatory for all verified cases of damage or defect.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_010",
+        "chunk_id": "DOC_010_A_6",
+        "score": 0.9397,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 5,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-110",
+    "normalized": {
+      "query": "today is march 31st and my window is 30 days from march 1st. can i still return?",
+      "order": {
+        "order_id": "ORD-110",
+        "product_name": "Ergonomic Chair",
+        "category": "Furniture",
+        "price": 250.0,
+        "purchase_date": "2026-03-01",
+        "delivery_date": "2026-03-01",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 30,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "RETURN",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "Return window for the specific number of days a product is eligible for return or exchange must be checked on the product detail page.",
+        "source": "myntra",
+        "section": "Category-Specific Return Restrictions",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_44",
+        "score": 1.0,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": true
+      },
+      {
+        "text": "Return is eligible only if the return is initiated within 7 days of the delivery date.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_013",
+        "chunk_id": "DOC_013_A_14",
+        "score": 0.9669,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "Fresh Bread, Cheese, Butter: Return window is 3 days. Eligible action is Refund only.",
+        "source": "flipkart",
+        "section": "Hyperlocal Returns \u2014 Category Windows and Actions",
+        "doc_id": "DOC_004",
+        "chunk_id": "DOC_004_A_96",
+        "score": 0.9657,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "Fresh Fruits, Vegetables, Milk: Return window is 1 day. Eligible action is Refund only.",
+        "source": "flipkart",
+        "section": "Hyperlocal Returns \u2014 Category Windows and Actions",
+        "doc_id": "DOC_004",
+        "chunk_id": "DOC_004_A_93",
+        "score": 0.9646,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "Return request must be submitted within 7 days of delivery.",
+        "source": "synthetic",
+        "section": "PROCESSING TIMELINES",
+        "doc_id": "DOC_013",
+        "chunk_id": "DOC_013_A_33",
+        "score": 0.956,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-111",
+    "normalized": {
+      "query": "these grapes are rotten. i received them 4 weeks ago but just checked.",
+      "order": {
+        "order_id": "ORD-111",
+        "product_name": "Red Grapes",
+        "category": "Produce",
+        "price": 4.5,
+        "purchase_date": "2026-03-01",
+        "delivery_date": "2026-03-02",
+        "return_window_days": 2,
+        "is_returnable": true,
+        "is_perishable": true,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": [
+        "PERISHABLE_ITEM"
+      ]
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 29,
+      "within_return_window": false,
+      "can_initiate_return": false,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "PRODUCT_ISSUE",
+      "issue_type": "DAMAGED",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "HIGH",
+      "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "PRODUCT_ISSUE",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 1.0,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "For damaged, defective, or wrong items on Amazon Bazaar, a full refund shall be provided.",
+        "source": "amazon",
+        "section": "Amazon Bazaar Return Policy",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_56",
+        "score": 0.989,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": true
+      },
+      {
+        "text": "Refund or compensation is eligible if the product is defective in design.",
+        "source": "legal",
+        "section": "PRODUCT LIABILITY",
+        "doc_id": "DOC_008",
+        "chunk_id": "DOC_008_A_21",
+        "score": 0.986,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      },
+      {
+        "text": "Item is eligible for return or refund only if the item was delivered in a spoiled or inedible condition.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_014",
+        "chunk_id": "DOC_014_A_7",
+        "score": 0.9778,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "Refund is eligible if goods bought by the consumer suffer from one or more defects.",
+        "source": "legal",
+        "section": "CONSUMER RIGHTS",
+        "doc_id": "DOC_008",
+        "chunk_id": "DOC_008_A_14",
+        "score": 0.9506,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 4,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-112",
+    "normalized": {
+      "query": "i opened the seal of this underwear and tried it on, can i send it back?",
+      "order": {
+        "order_id": "ORD-112",
+        "product_name": "Cotton Briefs",
+        "category": "Underwear",
+        "price": 15.0,
+        "purchase_date": "2026-03-25",
+        "delivery_date": "2026-03-27",
+        "return_window_days": 30,
+        "is_returnable": false,
+        "is_perishable": false,
+        "is_hygiene_sensitive": true,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": [
+        "HYGIENE_ITEM"
+      ]
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 4,
+      "within_return_window": true,
+      "can_initiate_return": false,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "UNKNOWN",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "GENERAL_QUERY",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.55,
+      "needs_clarification": true,
+      "clarification_question": "Can you describe what issue you're facing with the product?",
+      "missing_fields": [
+        "intent"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "Item returned without intact seal shall be automatically rejected and returned to the customer at the customer's shipping cost.",
+        "source": "synthetic",
+        "section": "SEAL AND TAMPER CONDITIONS",
+        "doc_id": "DOC_013",
+        "chunk_id": "DOC_013_A_22",
+        "score": 1.0,
+        "policy_type": "GENERAL",
+        "is_top_policy": true
+      },
+      {
+        "text": "Item is not eligible for return if there is any evidence of seal tampering including partial peeling, re-application of tape, puncture marks, or label removal.",
+        "source": "synthetic",
+        "section": "SEAL AND TAMPER CONDITIONS",
+        "doc_id": "DOC_013",
+        "chunk_id": "DOC_013_A_21",
+        "score": 0.9795,
+        "policy_type": "GENERAL",
+        "is_top_policy": true
+      },
+      {
+        "text": "Return is eligible only if the product is unwashed.",
+        "source": "myntra",
+        "section": "Return Eligibility \u2014 General Rules",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_19",
+        "score": 0.9429,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "Swimwear is not eligible for return or exchange.",
+        "source": "myntra",
+        "section": "Non-Returnable and Non-Exchangeable Products",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_35",
+        "score": 0.9404,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "Return of a wrong item is eligible only if the item is in its original condition and still in its original packaging.",
+        "source": "amazon",
+        "section": "Wrong Item Received",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_32",
+        "score": 0.9367,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-113",
+    "normalized": {
+      "query": "the clearance blender i got arrived shattered. i know it's final sale but this is unfair.",
+      "order": {
+        "order_id": "ORD-113",
+        "product_name": "Smart Blender",
+        "category": "Appliances",
+        "price": 89.0,
+        "purchase_date": "2026-03-28",
+        "delivery_date": "2026-03-30",
+        "return_window_days": 0,
+        "is_returnable": false,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": true
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": [
+        "ZERO_RETURN_WINDOW"
+      ]
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 1,
+      "within_return_window": false,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "PRODUCT_ISSUE",
+      "issue_type": "DAMAGED",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "HIGH",
+      "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "PRODUCT_ISSUE",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "An item is eligible for return if it is physically damaged.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_3",
+        "score": 1.0,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "Item is eligible for return or refund only if the item was delivered in a physically damaged condition.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_014",
+        "chunk_id": "DOC_014_A_6",
+        "score": 0.9972,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return within the applicable return window if it was received physically damaged.",
+        "source": "amazon",
+        "section": "General Return Eligibility",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_2",
+        "score": 0.9918,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "For damaged, defective, or wrong items on Amazon Bazaar, a full refund shall be provided.",
+        "source": "amazon",
+        "section": "Amazon Bazaar Return Policy",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_56",
+        "score": 0.9899,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 0.9838,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-114",
+    "normalized": {
+      "query": "i want refund for my order becuse it broken.",
+      "order": {
+        "order_id": "ORD-114",
+        "product_name": "Glass Bowl",
+        "category": "Kitchen",
+        "price": 12.0,
+        "purchase_date": "2026-03-29",
+        "delivery_date": "2026-03-31",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 0,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REFUND_REQUEST",
+      "issue_type": "DAMAGED",
+      "request_type": "REFUND",
+      "flow_type": "POST_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "REFUND_REQUEST",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "For damaged, defective, or wrong items on Amazon Bazaar, a full refund shall be provided.",
+        "source": "amazon",
+        "section": "Amazon Bazaar Return Policy",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_56",
+        "score": 1.0,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 0.9962,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "For seller-fulfilled orders with damaged or defective items, the seller shall issue a refund only if the item cannot be repaired or replaced.",
+        "source": "amazon",
+        "section": "Seller-Fulfilled Order Refunds",
+        "doc_id": "DOC_002",
+        "chunk_id": "DOC_002_A_19",
+        "score": 0.9916,
+        "policy_type": "REFUND",
+        "is_top_policy": false
+      },
+      {
+        "text": "Item is eligible for return or refund only if the item was delivered in a physically damaged condition.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_014",
+        "chunk_id": "DOC_014_A_6",
+        "score": 0.9884,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "An item is eligible for return if it is physically damaged.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_3",
+        "score": 0.9834,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 4,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-115",
+    "normalized": {
+      "query": "broken item give money back now",
+      "order": {
+        "order_id": "ORD-115",
+        "product_name": "Plastic Toy",
+        "category": "Toys",
+        "price": 5.0,
+        "purchase_date": "2026-03-30",
+        "delivery_date": "2026-03-31",
+        "return_window_days": 15,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 0,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REFUND_REQUEST",
+      "issue_type": "DAMAGED",
+      "request_type": "REFUND",
+      "flow_type": "POST_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "REFUND_REQUEST",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 1.0,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return if it is physically damaged.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_3",
+        "score": 0.9967,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "For damaged, defective, or wrong items on Amazon Bazaar, a full refund shall be provided.",
+        "source": "amazon",
+        "section": "Amazon Bazaar Return Policy",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_56",
+        "score": 0.9901,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "Item is eligible for return or refund only if the item was delivered in a physically damaged condition.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_014",
+        "chunk_id": "DOC_014_A_6",
+        "score": 0.9803,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "An item is eligible for return within the applicable return window if it was received physically damaged.",
+        "source": "amazon",
+        "section": "General Return Eligibility",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_2",
+        "score": 0.9763,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-116",
+    "normalized": {
+      "query": "seeking reimbursement for faulty kit",
+      "order": {
+        "order_id": "ORD-116",
+        "product_name": "DIY Electronics Kit",
+        "category": "Hobbies",
+        "price": 45.5,
+        "purchase_date": "2026-03-10",
+        "delivery_date": "2026-03-15",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 16,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REFUND_REQUEST",
+      "issue_type": "DAMAGED",
+      "request_type": "REFUND",
+      "flow_type": "POST_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.9
+    },
+    "triage": {
+      "final_intent": "REFUND_REQUEST",
+      "final_issue_type": "DAMAGED",
+      "confidence": 0.95,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "Item is eligible for return or refund only if the item was delivered in a physically damaged condition.",
+        "source": "synthetic",
+        "section": "ELIGIBILITY RULES",
+        "doc_id": "DOC_014",
+        "chunk_id": "DOC_014_A_6",
+        "score": 1.0,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "Refund or compensation is eligible if the product is defective in design.",
+        "source": "legal",
+        "section": "PRODUCT LIABILITY",
+        "doc_id": "DOC_008",
+        "chunk_id": "DOC_008_A_21",
+        "score": 0.9997,
+        "policy_type": "GENERAL",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 0.9954,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "An item is eligible for return if it is physically damaged.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_3",
+        "score": 0.9946,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "Refund is eligible if goods bought by the consumer suffer from one or more defects.",
+        "source": "legal",
+        "section": "CONSUMER RIGHTS",
+        "doc_id": "DOC_008",
+        "chunk_id": "DOC_008_A_14",
+        "score": 0.9575,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-117",
+    "normalized": {
+      "query": "get my cash back please",
+      "order": {
+        "order_id": "ORD-117",
+        "product_name": "Socks Pack",
+        "category": "Apparel",
+        "price": 10.0,
+        "purchase_date": "2026-03-20",
+        "delivery_date": "2026-03-24",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 7,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REFUND_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "REFUND",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "REFUND_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "The remaining balance after cashback deduction shall be processed as a refund.",
+        "source": "myntra",
+        "section": "Cashback Recovery on Return or Cancellation",
+        "doc_id": "DOC_007",
+        "chunk_id": "DOC_007_A_20",
+        "score": 1.0,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": true
+      },
+      {
+        "text": "Void cashback shall be deducted from the value of the item being returned or cancelled.",
+        "source": "myntra",
+        "section": "Cashback Recovery on Return or Cancellation",
+        "doc_id": "DOC_007",
+        "chunk_id": "DOC_007_A_19",
+        "score": 0.9537,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": true
+      },
+      {
+        "text": "Cashback recovery amount shall be deducted from the refund and adjusted against remaining items in the order.",
+        "source": "myntra",
+        "section": "Instant Cashback Recovery \u2014 Refund Adjustments",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_103",
+        "score": 0.9489,
+        "policy_type": "REFUND",
+        "is_top_policy": false
+      },
+      {
+        "text": "Cash cannot be withdrawn from the available balance of a Gift Card.",
+        "source": "myntra",
+        "section": "Gift Card \u2014 Refund and Return Rules",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_126",
+        "score": 0.9415,
+        "policy_type": "REFUND",
+        "is_top_policy": false
+      },
+      {
+        "text": "If installments have already been paid, the paid amount shall be credited back to the customer's bank account and the credit limit shall be reinstated.",
+        "source": "amazon",
+        "section": "Amazon Pay Later Refunds",
+        "doc_id": "DOC_002",
+        "chunk_id": "DOC_002_A_23",
+        "score": 0.9401,
+        "policy_type": "REFUND",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-118",
+    "normalized": {
+      "query": "",
+      "order": {
+        "order_id": "ORD-118",
+        "product_name": "Undefined Item",
+        "category": "Misc",
+        "price": 0.0,
+        "purchase_date": "2026-03-31",
+        "delivery_date": "2026-03-31",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": false,
+      "hard_errors": [
+        "EMPTY_QUERY"
+      ],
+      "soft_errors": [
+        "AMBIGUOUS_QUERY"
+      ],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": true,
+      "has_delivery": true,
+      "days_since_delivery": 0,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "UNKNOWN",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "NORMAL",
+      "confidence": 0.3
+    },
+    "triage": {
+      "final_intent": "GENERAL_QUERY",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.3,
+      "needs_clarification": true,
+      "clarification_question": "Can you please provide more details about your request?",
+      "missing_fields": [
+        "intent"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [],
+    "retrieval_meta": {
+      "status": "SKIPPED",
+      "reason": "Blocked case",
+      "chunk_count": 0
+    }
+  },
+  {
+    "order_id": "ORD-119",
+    "normalized": {
+      "query": "",
+      "order": {
+        "order_id": "ORD-119",
+        "product_name": "Ghost Item",
+        "category": "Unknown",
+        "price": 0.01,
+        "purchase_date": "2026-03-31",
+        "delivery_date": "2026-03-31",
+        "return_window_days": 1,
+        "is_returnable": false,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": false,
+      "hard_errors": [
+        "EMPTY_QUERY"
+      ],
+      "soft_errors": [
+        "AMBIGUOUS_QUERY"
+      ],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": true,
+      "has_delivery": true,
+      "days_since_delivery": 0,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "UNKNOWN",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "NORMAL",
+      "confidence": 0.3
+    },
+    "triage": {
+      "final_intent": "GENERAL_QUERY",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.3,
+      "needs_clarification": true,
+      "clarification_question": "Can you please provide more details about your request?",
+      "missing_fields": [
+        "intent"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [],
+    "retrieval_meta": {
+      "status": "SKIPPED",
+      "reason": "Blocked case",
+      "chunk_count": 0
+    }
+  },
+  {
+    "order_id": "ORD-120",
+    "normalized": {
+      "query": "my delivery date is before i bought it? see the log.",
+      "order": {
+        "order_id": "ORD-120",
+        "product_name": "Retro Clock",
+        "category": "Decor",
+        "price": 30.0,
+        "purchase_date": "2026-03-30",
+        "delivery_date": "2026-03-25",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": false,
+      "hard_errors": [
+        "INVALID_DATE_ORDER"
+      ],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 6,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "DELIVERY_ISSUE",
+      "issue_type": "UNKNOWN",
+      "request_type": "TRACK",
+      "flow_type": "DELIVERY_TRACKING",
+      "priority": "BLOCKED",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "DELIVERY_ISSUE",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [],
+    "retrieval_meta": {
+      "status": "SKIPPED",
+      "reason": "Blocked case",
+      "chunk_count": 0
+    }
+  },
+  {
+    "order_id": "ORD-121",
+    "normalized": {
+      "query": "is there a limit for high value returns? i want to return this.",
+      "order": {
+        "order_id": "ORD-121",
+        "product_name": "Server Rack",
+        "category": "Enterprise",
+        "price": 15000.0,
+        "purchase_date": "2026-03-10",
+        "delivery_date": "2026-03-20",
+        "return_window_days": 14,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 11,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [
+      "HIGH_VALUE_ORDER"
+    ],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "RETURN",
+      "flow_type": "POST_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "High-value products are eligible for return only for a limited number of days as specified on the product detail page.",
+        "source": "myntra",
+        "section": "Return and Exchange \u2014 Core Eligibility Rules",
+        "doc_id": "DOC_007",
+        "chunk_id": "DOC_007_A_11",
+        "score": 1.0,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 0.9734,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": true
+      },
+      {
+        "text": "Return is eligible only if all original tags are intact.",
+        "source": "myntra",
+        "section": "Return Eligibility \u2014 General Rules",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_20",
+        "score": 0.964,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "Exchange for an item of higher value shall result in the difference in amount being charged to the customer.",
+        "source": "myntra",
+        "section": "Exchange Policy Rules",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_69",
+        "score": 0.9588,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      },
+      {
+        "text": "An item is eligible for return within the applicable return window if it is defective.",
+        "source": "amazon",
+        "section": "General Return Eligibility",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_4",
+        "score": 0.9527,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 4,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-122",
+    "normalized": {
+      "query": "i haven't even received it yet but i want to start a return.",
+      "order": {
+        "order_id": "ORD-122",
+        "product_name": "Winter Coat",
+        "category": "Apparel",
+        "price": 150.0,
+        "purchase_date": "2026-03-29",
+        "delivery_date": null,
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [
+        "NO_DELIVERY_DATA"
+      ],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": false,
+      "days_since_delivery": null,
+      "within_return_window": false,
+      "can_initiate_return": false,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "RETURN",
+      "flow_type": "PRE_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.55,
+      "needs_clarification": true,
+      "clarification_question": "We could not confirm your delivery status. Has your order been delivered? Please provide delivery details.",
+      "missing_fields": [
+        "delivery_date"
+      ],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "An item is eligible for return or replacement if a wrong item is received.",
+        "source": "amazon",
+        "section": "Wrong Item Received",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_31",
+        "score": 1.0,
+        "policy_type": "GENERAL",
+        "is_top_policy": true
+      },
+      {
+        "text": "Return request must be submitted within 7 days of delivery.",
+        "source": "synthetic",
+        "section": "PROCESSING TIMELINES",
+        "doc_id": "DOC_013",
+        "chunk_id": "DOC_013_A_33",
+        "score": 0.9912,
+        "policy_type": "GENERAL",
+        "is_top_policy": true
+      },
+      {
+        "text": "An item is eligible for return if it is defective.",
+        "source": "amazon",
+        "section": "Return Eligibility",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_4",
+        "score": 0.9829,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "Return is eligible if goods or services are delivered late from the stated delivery schedule.",
+        "source": "legal",
+        "section": "DUTIES OF INVENTORY E-COMMERCE ENTITIES",
+        "doc_id": "DOC_009",
+        "chunk_id": "DOC_009_A_62",
+        "score": 0.9747,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      },
+      {
+        "text": "Return is eligible only if the product is unused.",
+        "source": "myntra",
+        "section": "Return Eligibility \u2014 General Rules",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_18",
+        "score": 0.9581,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 4,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-123",
+    "normalized": {
+      "query": "the system says it isn't returnable but it also says it isn't final sale. why?",
+      "order": {
+        "order_id": "ORD-123",
+        "product_name": "Software License",
+        "category": "Digital",
+        "price": 50.0,
+        "purchase_date": "2026-03-15",
+        "delivery_date": "2026-03-15",
+        "return_window_days": 0,
+        "is_returnable": false,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": [
+        "ZERO_RETURN_WINDOW"
+      ]
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 16,
+      "within_return_window": false,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "RETURN",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "RETURN_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.7,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "Item is not eligible for return, exchange, or refund if designated as a final sale item, except as mandated by applicable law.",
+        "source": "synthetic",
+        "section": "CORE NON-RETURNABILITY RULES",
+        "doc_id": "DOC_012",
+        "chunk_id": "DOC_012_A_6",
+        "score": 1.0,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": true
+      },
+      {
+        "text": "No exceptions beyond wrong product delivered, transit damage, and statutory rights shall be entertained for final sale items.",
+        "source": "synthetic",
+        "section": "EXCEPTIONS TO NON-RETURNABILITY",
+        "doc_id": "DOC_012",
+        "chunk_id": "DOC_012_A_20",
+        "score": 0.9845,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": true
+      },
+      {
+        "text": "Items marked as \"non-returnable\" on the product detail page are not eligible for return.",
+        "source": "amazon",
+        "section": "Non-Returnable Items",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_16",
+        "score": 0.9745,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "Cleaning products are not eligible for return.",
+        "source": "amazon",
+        "section": "Non-Returnable Items",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_14",
+        "score": 0.9613,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "Non-Returnable \u2014 Item is not eligible for return.",
+        "source": "amazon",
+        "section": "Return Policy Types",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_38",
+        "score": 0.9513,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-124",
+    "normalized": {
+      "query": "hey so i was talking to my mom and she said the shirt i got from you guys is okay but actually i think it's too small and i might want to swap it or just get a credit for next time.",
+      "order": {
+        "order_id": "ORD-124",
+        "product_name": "T-Shirt",
+        "category": "Apparel",
+        "price": 20.0,
+        "purchase_date": "2026-03-28",
+        "delivery_date": "2026-03-30",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 1,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REPLACEMENT_REQUEST",
+      "issue_type": "SIZE_ISSUE",
+      "request_type": "REPLACEMENT",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.85
+    },
+    "triage": {
+      "final_intent": "REPLACEMENT_REQUEST",
+      "final_issue_type": "SIZE_ISSUE",
+      "confidence": 0.9,
+      "needs_clarification": false,
+      "clarification_question": null,
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "Exchange for size or fit issues after accepting Open Box Delivery requires a separate return or exchange request.",
+        "source": "myntra",
+        "section": "Open Box Delivery \u2014 Return and Refund Rules",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_121",
+        "score": 1.0,
+        "policy_type": "REFUND",
+        "is_top_policy": true
+      },
+      {
+        "text": "Exchange for the same size or different size of the same style shall be provided free of cost within the specified exchange period.",
+        "source": "myntra",
+        "section": "Exchange Policy Rules",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_68",
+        "score": 0.9803,
+        "policy_type": "GENERAL",
+        "is_top_policy": true
+      },
+      {
+        "text": "10 Day Free Returns and Exchange \u2014 Item is eligible for exchange for a different size or color only based on item availability.",
+        "source": "amazon",
+        "section": "Return Policy Types",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_36",
+        "score": 0.9765,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      },
+      {
+        "text": "An item is eligible for return or replacement if a wrong item is received.",
+        "source": "amazon",
+        "section": "Wrong Item Received",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_31",
+        "score": 0.9379,
+        "policy_type": "GENERAL",
+        "is_top_policy": false
+      },
+      {
+        "text": "Return is not eligible in cases of buyer's remorse including incorrect model ordered, incorrect color ordered, or incorrect product ordered.",
+        "source": "amazon",
+        "section": "General Return Eligibility",
+        "doc_id": "DOC_003",
+        "chunk_id": "DOC_003_A_6",
+        "score": 0.928,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 3,
+      "quality_flag": "GOOD"
+    }
+  },
+  {
+    "order_id": "ORD-125",
+    "normalized": {
+      "query": "change of plans, i want to cancel my order and change the shipping address for my other pending one.",
+      "order": {
+        "order_id": "ORD-125",
+        "product_name": "Hand Mixer",
+        "category": "Appliances",
+        "price": 35.0,
+        "purchase_date": "2026-03-31",
+        "delivery_date": null,
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [
+        "NO_DELIVERY_DATA"
+      ],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": false,
+      "days_since_delivery": null,
+      "within_return_window": false,
+      "can_initiate_return": false,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "CANCELLATION_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "CANCEL",
+      "flow_type": "PRE_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    },
+    "triage": {
+      "final_intent": "CANCELLATION_REQUEST",
+      "final_issue_type": "UNKNOWN",
+      "confidence": 0.55,
+      "needs_clarification": true,
+      "clarification_question": "We could not confirm your delivery status. Has your order been delivered? Please provide delivery details.",
+      "missing_fields": [],
+      "triage_version": "1.0",
+      "processed_at": "2026-03-31T12:48:49Z"
+    },
+    "retrieval": [
+      {
+        "text": "Exchange is not eligible for delivery to a different address.",
+        "source": "myntra",
+        "section": "Exchange Policy Rules",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_65",
+        "score": 1.0,
+        "policy_type": "GENERAL",
+        "is_top_policy": true
+      },
+      {
+        "text": "Exchange or replacement shall be delivered only to the same address where the original product was delivered.",
+        "source": "myntra",
+        "section": "Exchange Policy Rules",
+        "doc_id": "DOC_006",
+        "chunk_id": "DOC_006_A_64",
+        "score": 0.9403,
+        "policy_type": "GENERAL",
+        "is_top_policy": true
+      },
+      {
+        "text": "Order shall be cancelled if there is a discrepancy between the name on the customer's account and the name on the PAN card.",
+        "source": "myntra",
+        "section": "Refund \u2014 Payment Method Constraints",
+        "doc_id": "DOC_007",
+        "chunk_id": "DOC_007_A_41",
+        "score": 0.9355,
+        "policy_type": "REFUND",
+        "is_top_policy": false
+      },
+      {
+        "text": "If the shipping address is not eligible for pickup, a Self-Return option shall be provided.",
+        "source": "amazon",
+        "section": "Return Eligibility Conditions",
+        "doc_id": "DOC_001",
+        "chunk_id": "DOC_001_A_19",
+        "score": 0.9324,
+        "policy_type": "ELIGIBILITY",
+        "is_top_policy": false
+      },
+      {
+        "text": "Return pickup address change is eligible only if pickup service is available at the new address.",
+        "source": "flipkart",
+        "section": "Return Pickup Conditions \u2014 Part 2",
+        "doc_id": "DOC_004",
+        "chunk_id": "DOC_004_A_76",
+        "score": 0.9254,
+        "policy_type": "RETURN_CONDITION",
+        "is_top_policy": false
+      }
+    ],
+    "retrieval_meta": {
+      "status": "OK",
+      "chunk_count": 5,
+      "unique_docs": 4,
+      "quality_flag": "GOOD"
+    }
+  }
+]
