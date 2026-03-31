@@ -1,0 +1,80 @@
+[
+  {
+    "doc_id": "DOC_001",
+    "source": "amazon",
+    "type": "faq",
+    "file_name": "amazon_faq.txt"
+  },
+  {
+    "doc_id": "DOC_002",
+    "source": "amazon",
+    "type": "refund",
+    "file_name": "amazon_refund.txt"
+  },
+  {
+    "doc_id": "DOC_003",
+    "source": "amazon",
+    "type": "returns",
+    "file_name": "amazon_returns.txt"
+  },
+  {
+    "doc_id": "DOC_004",
+    "source": "flipkart",
+    "type": "returns",
+    "file_name": "flipkart_returns.txt"
+  },
+  {
+    "doc_id": "DOC_005",
+    "source": "flipkart",
+    "type": "shipping",
+    "file_name": "flipkart_shipping.txt"
+  },
+  {
+    "doc_id": "DOC_006",
+    "source": "myntra",
+    "type": "faq",
+    "file_name": "myntra_faq.txt"
+  },
+  {
+    "doc_id": "DOC_007",
+    "source": "myntra",
+    "type": "terms",
+    "file_name": "myntra_terms.txt"
+  },
+  {
+    "doc_id": "DOC_008",
+    "source": "legal",
+    "type": "consumer_law",
+    "file_name": "legal_consumer_law.txt"
+  },
+  {
+    "doc_id": "DOC_009",
+    "source": "legal",
+    "type": "ecommerce_rules",
+    "file_name": "legal_ecommerce_rules.txt"
+  },
+  {
+    "doc_id": "DOC_010",
+    "source": "synthetic",
+    "type": "damaged_goods",
+    "file_name": "synthetic_damaged_goods.txt"
+  },
+  {
+    "doc_id": "DOC_012",
+    "source": "synthetic",
+    "type": "final_sale",
+    "file_name": "synthetic_final_sale.txt"
+  },
+  {
+    "doc_id": "DOC_013",
+    "source": "synthetic",
+    "type": "hygiene",
+    "file_name": "synthetic_hygiene.txt"
+  },
+  {
+    "doc_id": "DOC_014",
+    "source": "synthetic",
+    "type": "perishable",
+    "file_name": "synthetic_perishable.txt"
+  }
+]
