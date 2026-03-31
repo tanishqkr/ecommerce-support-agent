@@ -111,6 +111,17 @@
       "chunk_count": 5,
       "unique_docs": 5,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "APPROVED",
+      "action": "RETURN",
+      "reason": "Size issue qualifies for return",
+      "supporting_chunks": [
+        "DOC_006_A_121",
+        "DOC_013_A_18",
+        "DOC_014_A_8",
+        "DOC_004_A_19"
+      ]
     }
   },
   {
@@ -227,6 +238,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "APPROVED",
+      "action": "REFUND",
+      "reason": "Damaged item eligible for refund",
+      "supporting_chunks": [
+        "DOC_001_A_4",
+        "DOC_001_A_3",
+        "DOC_003_A_56",
+        "DOC_014_A_6",
+        "DOC_003_A_2"
+      ]
     }
   },
   {
@@ -345,6 +368,18 @@
       "chunk_count": 5,
       "unique_docs": 5,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "ESCALATE",
+      "action": "TRACK",
+      "reason": "Order requires tracking based on delivery status",
+      "supporting_chunks": [
+        "DOC_001_A_8",
+        "DOC_009_A_62",
+        "DOC_013_A_33",
+        "DOC_007_A_29",
+        "DOC_006_A_64"
+      ]
     }
   },
   {
@@ -409,6 +444,12 @@
       "status": "SKIPPED",
       "reason": "Blocked case",
       "chunk_count": 0
+    },
+    "decision": {
+      "status": "BLOCKED",
+      "action": "NONE",
+      "reason": "Validation blocked request",
+      "supporting_chunks": []
     }
   },
   {
@@ -473,6 +514,12 @@
       "status": "SKIPPED",
       "reason": "Blocked case",
       "chunk_count": 0
+    },
+    "decision": {
+      "status": "BLOCKED",
+      "action": "NONE",
+      "reason": "Validation blocked request",
+      "supporting_chunks": []
     }
   },
   {
@@ -591,6 +638,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "REJECTED",
+      "action": "NONE",
+      "reason": "Item is final sale",
+      "supporting_chunks": [
+        "DOC_012_A_6",
+        "DOC_001_A_16",
+        "DOC_001_A_1",
+        "DOC_012_A_20",
+        "DOC_004_A_72"
+      ]
     }
   },
   {
@@ -709,6 +768,18 @@
       "chunk_count": 5,
       "unique_docs": 4,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "REVIEW",
+      "action": "NONE",
+      "reason": "No matching automated rule; requires review",
+      "supporting_chunks": [
+        "DOC_001_A_4",
+        "DOC_014_A_7",
+        "DOC_001_A_31",
+        "DOC_003_A_4",
+        "DOC_009_A_37"
+      ]
     }
   },
   {
@@ -823,6 +894,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "APPROVED",
+      "action": "RETURN",
+      "reason": "Customer dissatisfaction within return window",
+      "supporting_chunks": [
+        "DOC_001_A_31",
+        "DOC_001_A_4",
+        "DOC_014_A_7",
+        "DOC_003_A_6",
+        "DOC_003_A_11"
+      ]
     }
   },
   {
@@ -937,6 +1020,18 @@
       "chunk_count": 5,
       "unique_docs": 5,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "APPROVED",
+      "action": "REFUND",
+      "reason": "Damaged item eligible for refund",
+      "supporting_chunks": [
+        "DOC_003_A_56",
+        "DOC_001_A_3",
+        "DOC_002_A_19",
+        "DOC_008_A_21",
+        "DOC_010_A_6"
+      ]
     }
   },
   {
@@ -1051,6 +1146,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "REVIEW",
+      "action": "NONE",
+      "reason": "No matching automated rule; requires review",
+      "supporting_chunks": [
+        "DOC_006_A_44",
+        "DOC_013_A_14",
+        "DOC_004_A_96",
+        "DOC_004_A_93",
+        "DOC_013_A_33"
+      ]
     }
   },
   {
@@ -1167,6 +1274,18 @@
       "chunk_count": 5,
       "unique_docs": 4,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "REJECTED",
+      "action": "NONE",
+      "reason": "Perishable item outside of return window",
+      "supporting_chunks": [
+        "DOC_001_A_4",
+        "DOC_003_A_56",
+        "DOC_008_A_21",
+        "DOC_014_A_7",
+        "DOC_008_A_14"
+      ]
     }
   },
   {
@@ -1285,6 +1404,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "REVIEW",
+      "action": "NONE",
+      "reason": "No matching automated rule; requires review",
+      "supporting_chunks": [
+        "DOC_013_A_22",
+        "DOC_013_A_21",
+        "DOC_006_A_19",
+        "DOC_006_A_35",
+        "DOC_001_A_32"
+      ]
     }
   },
   {
@@ -1401,6 +1532,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "APPROVED",
+      "action": "REFUND",
+      "reason": "Damaged exceptions override final sale",
+      "supporting_chunks": [
+        "DOC_001_A_3",
+        "DOC_014_A_6",
+        "DOC_003_A_2",
+        "DOC_003_A_56",
+        "DOC_001_A_4"
+      ]
     }
   },
   {
@@ -1515,6 +1658,18 @@
       "chunk_count": 5,
       "unique_docs": 4,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "APPROVED",
+      "action": "REFUND",
+      "reason": "Damaged item eligible for refund",
+      "supporting_chunks": [
+        "DOC_003_A_56",
+        "DOC_001_A_4",
+        "DOC_002_A_19",
+        "DOC_014_A_6",
+        "DOC_001_A_3"
+      ]
     }
   },
   {
@@ -1629,6 +1784,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "APPROVED",
+      "action": "REFUND",
+      "reason": "Damaged item eligible for refund",
+      "supporting_chunks": [
+        "DOC_001_A_4",
+        "DOC_001_A_3",
+        "DOC_003_A_56",
+        "DOC_014_A_6",
+        "DOC_003_A_2"
+      ]
     }
   },
   {
@@ -1743,6 +1910,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "APPROVED",
+      "action": "REFUND",
+      "reason": "Damaged item eligible for refund",
+      "supporting_chunks": [
+        "DOC_014_A_6",
+        "DOC_008_A_21",
+        "DOC_001_A_4",
+        "DOC_001_A_3",
+        "DOC_008_A_14"
+      ]
     }
   },
   {
@@ -1857,6 +2036,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "REVIEW",
+      "action": "NONE",
+      "reason": "No matching automated rule; requires review",
+      "supporting_chunks": [
+        "DOC_007_A_20",
+        "DOC_007_A_19",
+        "DOC_006_A_103",
+        "DOC_006_A_126",
+        "DOC_002_A_23"
+      ]
     }
   },
   {
@@ -1925,6 +2116,12 @@
       "status": "SKIPPED",
       "reason": "Blocked case",
       "chunk_count": 0
+    },
+    "decision": {
+      "status": "BLOCKED",
+      "action": "NONE",
+      "reason": "Validation blocked request",
+      "supporting_chunks": []
     }
   },
   {
@@ -1993,6 +2190,12 @@
       "status": "SKIPPED",
       "reason": "Blocked case",
       "chunk_count": 0
+    },
+    "decision": {
+      "status": "BLOCKED",
+      "action": "NONE",
+      "reason": "Validation blocked request",
+      "supporting_chunks": []
     }
   },
   {
@@ -2057,6 +2260,12 @@
       "status": "SKIPPED",
       "reason": "Blocked case",
       "chunk_count": 0
+    },
+    "decision": {
+      "status": "BLOCKED",
+      "action": "NONE",
+      "reason": "Validation blocked request",
+      "supporting_chunks": []
     }
   },
   {
@@ -2173,6 +2382,18 @@
       "chunk_count": 5,
       "unique_docs": 4,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "REVIEW",
+      "action": "NONE",
+      "reason": "No matching automated rule; requires review",
+      "supporting_chunks": [
+        "DOC_007_A_11",
+        "DOC_001_A_4",
+        "DOC_006_A_20",
+        "DOC_006_A_69",
+        "DOC_003_A_4"
+      ]
     }
   },
   {
@@ -2291,6 +2512,18 @@
       "chunk_count": 5,
       "unique_docs": 4,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "REVIEW",
+      "action": "NONE",
+      "reason": "No matching automated rule; requires review",
+      "supporting_chunks": [
+        "DOC_001_A_31",
+        "DOC_013_A_33",
+        "DOC_001_A_4",
+        "DOC_009_A_62",
+        "DOC_006_A_18"
+      ]
     }
   },
   {
@@ -2407,6 +2640,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "REVIEW",
+      "action": "NONE",
+      "reason": "No matching automated rule; requires review",
+      "supporting_chunks": [
+        "DOC_012_A_6",
+        "DOC_012_A_20",
+        "DOC_001_A_16",
+        "DOC_001_A_14",
+        "DOC_003_A_38"
+      ]
     }
   },
   {
@@ -2521,6 +2766,18 @@
       "chunk_count": 5,
       "unique_docs": 3,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "APPROVED",
+      "action": "RETURN",
+      "reason": "Size issue qualifies for return",
+      "supporting_chunks": [
+        "DOC_006_A_121",
+        "DOC_006_A_68",
+        "DOC_003_A_36",
+        "DOC_001_A_31",
+        "DOC_003_A_6"
+      ]
     }
   },
   {
@@ -2637,6 +2894,18 @@
       "chunk_count": 5,
       "unique_docs": 4,
       "quality_flag": "GOOD"
+    },
+    "decision": {
+      "status": "REVIEW",
+      "action": "NONE",
+      "reason": "No matching automated rule; requires review",
+      "supporting_chunks": [
+        "DOC_006_A_65",
+        "DOC_006_A_64",
+        "DOC_007_A_41",
+        "DOC_001_A_19",
+        "DOC_004_A_76"
+      ]
     }
   }
 ]

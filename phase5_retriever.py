@@ -142,6 +142,25 @@ def retrieve_chunks(query: str, state: dict) -> list:
     after_diversity = enforce_diversity(after_dedup, max_chunks_per_doc)
     log(f"After diversity: {len(after_diversity)}")
 
+    # ---- HARD FILTER: DELIVERY_ISSUE ----
+    intent = state.get("intent", "UNKNOWN")
+    if intent == "DELIVERY_ISSUE":
+        delivery_keywords = [
+            "delivery", "delivered", "not delivered", 
+            "shipment", "tracking", "dispatch", 
+            "in transit", "out for delivery"
+        ]
+        filtered = []
+        for chunk in after_diversity:
+            text = chunk["text"].lower()
+            if any(k in text for k in delivery_keywords):
+                filtered.append(chunk)
+        
+        # Fallback if too aggressive
+        if len(filtered) >= 3:
+            after_diversity = filtered
+            log(f"Applied delivery hard filter: {len(after_diversity)} chunks remaining.")
+
     # 7. Final top-k slice
     final_candidates = after_diversity[:top_k_final]
 
