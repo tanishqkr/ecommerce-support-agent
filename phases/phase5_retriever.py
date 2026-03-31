@@ -18,8 +18,8 @@ from utils.scoring_utils import apply_priority_boost, deduplicate_results, enfor
 # CONFIG
 # ----------------------------------------
 CONFIG_PATH = "config.json"
-INDEX_PATH = "dataset/faiss_index.bin"
-METADATA_PATH = "dataset/chunk_metadata.json"
+INDEX_PATH = "data/dataset/faiss_index.bin"
+METADATA_PATH = "data/dataset/chunk_metadata.json"
 
 TOP_K_INITIAL = 15
 TOP_K_FINAL = 5
