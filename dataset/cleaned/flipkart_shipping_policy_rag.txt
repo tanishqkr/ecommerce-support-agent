@@ -1,0 +1,42 @@
+[DOCUMENT: Flipkart Shipping Policy]
+
+[SECTION: Delivery Timeline Rules]
+* Estimated delivery time is based on the seller's location, product availability, shipping destination, and the delivery partner's transit time to the customer's location.
+* Business days exclude public holidays and Sundays.
+* Delivery date may be extended by one day if the seller or delivery partner has a holiday between the order date and the estimated delivery date.
+* Sellers who do not work on Sundays shall have Sunday excluded from the delivery timeline calculation.
+* Estimated delivery time varies per seller based on product availability, geographic location of the seller, shipping destination, and delivery partner capacity.
+
+[SECTION: Location Serviceability Rules]
+* Delivery to a location is eligible only if the seller ships to that pincode.
+* Delivery to a location is eligible only if there are no legal restrictions on shipping the product to that location.
+* Delivery to a location is eligible only if reliable delivery partners are available in that location.
+* Delivery is not eligible if the seller has chosen not to ship to the customer's location, which is at the seller's sole discretion.
+* If pincode is not entered before checkout, the pincode in the shipping address shall be used to determine serviceability.
+* Flipkart does not deliver items internationally. Delivery address must be within India.
+* Purchases from outside India are eligible using credit or debit cards issued in India and 21 other countries, only if the delivery address is in India.
+
+[SECTION: Cash on Delivery (CoD) Eligibility]
+* CoD is eligible only if the delivery partner servicing the customer's location is able to accept cash at the time of delivery.
+* CoD is not eligible if the order value exceeds the cash limit set by the delivery partner for that destination.
+
+[SECTION: Non-Delivery Claim Rules]
+* Claim for non-delivery must be submitted within 7 days from the date of delivery confirmation.
+* Non-delivery claim is not eligible if reported after 7 days from the delivery confirmation date.
+
+[SECTION: Return Pickup — Logistics Rules]
+* Return pickup is eligible only if Ekart Logistics can service the pickup location.
+* If Ekart Logistics cannot arrange pickup, return must be sent via a third-party delivery service.
+* Return shipping fees are borne by the seller, not the customer.
+
+[SECTION: Product Availability Status — Eligibility Implications]
+* Product tagged "In Stock": Item is available with the seller and is eligible for purchase. Delivery is within 2 to 3, 4 to 5, or 4 to 6 business days depending on the customer's location pincode.
+* Product tagged "In Stock" for locations outside standard delivery zones: Order shall be shipped via Registered Post through the Indian Postal Service and may take 1 to 2 weeks.
+* Product tagged "Available": Item is not currently in stock with the seller but shall be procured on order. Delivery time depends on estimated procurement time plus estimated shipping time.
+* Product tagged "Preorder" or "Forthcoming": Item is not yet released. Item shall be shipped on the official release date and shall reach the customer within 2 to 6 business days.
+* Product tagged "Out of Stock": Item is not eligible for purchase. Item is not available for sale.
+* Product tagged "Imported": Item must be sourced from outside India. Delivery shall take a minimum of 10 days.
+* Product tagged "Back In Stock Soon": Item is currently sold out but is eligible for advance booking. Shipment shall occur as per seller-specified timelines.
+* Product tagged "Temporarily Unavailable": Item is not eligible for purchase. Item may become available again.
+* Product tagged "Permanently Discontinued": Item is not eligible for purchase. Item is no longer in production and shall not be restocked.
+* Product tagged "Out of Print": Item is not eligible for purchase. Item is permanently discontinued from publication.

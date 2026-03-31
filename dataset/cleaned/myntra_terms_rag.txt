@@ -1,0 +1,76 @@
+[DOCUMENT: Myntra Terms of Use]
+
+[SECTION: Return and Exchange — Core Eligibility Rules]
+* Return is eligible only if the product being returned is unused and has original tags intact, confirmed by the customer via a checkbox at the time of creating the return request.
+* Return request shall be declined if the product returned is used.
+* Return request shall be declined if the product returned is damaged.
+* Return request shall be declined if the original tags of the product are missing.
+* If the return request is declined, the product shall be re-shipped back to the customer.
+* Refund is not eligible if the return request is declined.
+* If the customer fails to accept the re-shipped product after a declined return, the customer shall continue to be not eligible for a refund.
+* Myntra assumes no liability for refund in the event that the return request is declined.
+* Myntra assumes no liability for return or refund for a re-shipped product that the customer fails to accept.
+* Return and exchange are eligible within the return or exchange period as specified on the Product Detail Page.
+* High-value products are eligible for return only for a limited number of days as specified on the product detail page.
+* Non-returnable products are not eligible for return.
+
+[SECTION: Alteration Services — Non-Returnable Condition]
+* Any product given for alteration is not eligible for return.
+* Any product given for alteration is not eligible for refund.
+* Alteration services must not be availed if the customer intends to return the product.
+* Alteration services are provided on an as-is basis at the customer's sole risk.
+
+[SECTION: Cashback Recovery on Return or Cancellation]
+* If a return or cancellation causes the order value to fall below the minimum threshold required by an offer, the customer is deemed ineligible for that offer.
+* Any cashback already credited for an offer that is no longer eligible due to return or cancellation shall be void.
+* Void cashback shall be deducted from the value of the item being returned or cancelled.
+* The remaining balance after cashback deduction shall be processed as a refund.
+
+[SECTION: Open Box Delivery — Return and Refund Rules]
+* Open Box Delivery is available only in select pin codes.
+* For COD orders under Open Box Delivery, payment must be made before the box is opened.
+* If the product or parts of the product are found missing, damaged, or different from what was ordered during Open Box Delivery, the customer must not accept the order.
+* Refund for COD orders refused during Open Box Delivery is issued on the spot from the delivery partner.
+* Refund for prepaid orders refused during Open Box Delivery is credited back to the source.
+* For electronic devices found defective upon turning on during Open Box Delivery, the customer must contact customer care.
+
+[SECTION: Delivery Non-Receipt Claim]
+* Claim for order non-delivery must be submitted within 5 days from the alleged date of delivery as reflected on the Myntra portal.
+* Non-receipt claim is not eligible if submitted after 5 days from the alleged date of delivery.
+* Failure to notify non-delivery within 5 days shall be construed as a deemed delivery for that transaction.
+* Myntra disclaims all liability for non-delivery or non-receipt claims submitted after 5 days from the alleged date of delivery.
+
+[SECTION: Refund — Payment Method Constraints]
+* Refund shall be made in Indian Rupees only.
+* Refund shall be equivalent to the Transaction Price received in Indian Rupees.
+* Except for Cash on Delivery transactions, refund shall be made to the same payment source from which the Transaction Price was received, or through any other available method chosen by the customer.
+* For Cash on Delivery transactions, refund shall be made via electronic payment transfer.
+* Refund shall be conditional and subject to the customer complying with applicable policies.
+* Refund is not eligible if the customer fails to raise a refund claim within the stipulated time using platform features.
+* Refund is not eligible for certain product categories and services as specified in applicable policies.
+* Refund is subject to Myntra's right of recourse in case of any misuse by the customer.
+* Refunds shall be supported only for select banks; if a bank is not supported, the customer shall be required to provide alternate bank account details.
+* For purchases of Rs. 2,00,000 or above, the customer must upload a scanned copy of their PAN card within 4 days of the purchase; failure to do so shall result in cancellation of the purchase.
+* Order shall be cancelled if there is a discrepancy between the name on the customer's account and the name on the PAN card.
+
+[SECTION: Myntra Credit — Eligibility Constraints]
+* Myntra Credits are eligible for use only to buy products from the customer's registered account on the Myntra app or website.
+* Myntra Credits are not eligible for payment of orders placed on other Myntra accounts.
+* Myntra Credits are not eligible for transfer to any other Myntra user's account.
+* Myntra Credits are not eligible for transfer to a bank account or wallet.
+* Myntra Credits earned as goodwill compensation, via loyalty or referral program, promotional campaigns, or through gift cards purchased on other platforms shall be forfeited if the account is terminated by Myntra.
+* Returns and refunds for terminated accounts are at the sole discretion of Myntra.
+
+[SECTION: Seller Cancellation and Refund]
+* If a seller cancels an order due to an incorrect price reflected on the platform (due to technical issue, typographical error, or incorrect product information), the seller may cancel the order.
+* If a seller is unable to deliver a product due to applicable state laws, the seller shall return or credit the advance amount received from the sale of that product.
+
+[SECTION: Fraud and Account Conduct Affecting Refund Eligibility]
+* Myntra reserves the right to cancel orders classified as bulk orders or fraud orders at any stage of product delivery.
+* Any promotional voucher used for placing a bulk or fraud order shall not be eligible for refund.
+* Refunds and returns for accounts terminated due to policy violations are at the sole discretion of Myntra.
+* Statutory consumer rights override this policy where applicable law mandates otherwise.
+
+[SECTION: Limitation of Liability]
+* Myntra's maximum liability to the customer is limited to the purchase value of the products bought.
+* Myntra is not liable for indirect, punitive, incidental, special, or consequential damages.

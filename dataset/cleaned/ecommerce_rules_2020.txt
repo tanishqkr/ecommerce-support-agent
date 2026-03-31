@@ -1,0 +1,88 @@
+DOCUMENT: CONSUMER PROTECTION (E-COMMERCE) RULES 2020 (INDIA)
+
+SECTION: SCOPE AND APPLICABILITY
+
+These rules apply to all goods and services bought or sold over digital or electronic networks including digital products.
+These rules apply to all models of e-commerce including marketplace and inventory models.
+These rules apply to all e-commerce retail including multi-channel single brand retailers and single brand retailers in single or multiple formats.
+These rules apply to all forms of unfair trade practices across all models of e-commerce.
+These rules apply to an e-commerce entity not established in India if it systematically offers goods or services to consumers in India.
+These rules do not apply to any activity of a natural person carried out in a personal capacity not being part of any professional or commercial activity on a regular or systematic basis.
+
+SECTION: DEFINITIONS
+
+E-commerce entity means any person who owns, operates, or manages a digital or electronic facility or platform for electronic commerce, but does not include a seller offering goods or services on a marketplace e-commerce entity.
+Inventory e-commerce entity means an e-commerce entity which owns the inventory of goods or services and sells such goods or services directly to consumers, and includes single brand retailers and multi-channel single brand retailers.
+Marketplace e-commerce entity means an e-commerce entity which provides an information technology platform on a digital or electronic network to facilitate transactions between buyers and sellers.
+Seller means the product seller as defined in the Consumer Protection Act 2019 and includes any service provider.
+
+SECTION: DUTIES OF E-COMMERCE ENTITIES
+
+E-commerce entity must be a company incorporated under applicable Companies Act provisions or a foreign company or an office, branch, or agency outside India owned or controlled by a person resident in India.
+E-commerce entity must appoint a nodal person of contact or alternate senior designated functionary who is resident in India to ensure compliance with the Act and rules.
+E-commerce entity must display its legal name, principal geographic address of headquarters and all branches, name and details of its website, and contact details including email address, fax, landline, and mobile numbers of customer care and grievance officer prominently on its platform.
+E-commerce entity must not adopt any unfair trade practice whether in the course of business on its platform or otherwise.
+E-commerce entity must establish an adequate grievance redressal mechanism and appoint a grievance officer for consumer grievance redressal.
+E-commerce entity must display the name, contact details, and designation of the grievance officer on its platform.
+Grievance officer must acknowledge receipt of any consumer complaint within 48 hours of receipt.
+Grievance officer must redress the complaint within one month from the date of receipt of the complaint.
+E-commerce entity must mention name and details of any importer where imported goods or services are offered for sale.
+E-commerce entity must not impose cancellation charges on consumers cancelling after confirming purchase unless similar charges are also borne by the e-commerce entity when it cancels the purchase order unilaterally.
+E-commerce entity must record consumer consent for purchase only through an explicit and affirmative action and must not record consent automatically including through pre-ticked checkboxes.
+E-commerce entity must effect all payments towards accepted refund requests within a reasonable period of time or as prescribed under applicable laws.
+E-commerce entity must not manipulate the price of goods or services to gain unreasonable profit by imposing unjustified prices on consumers.
+E-commerce entity must not discriminate between consumers of the same class or make any arbitrary classification of consumers affecting their rights under the Act.
+
+SECTION: LIABILITIES OF MARKETPLACE E-COMMERCE ENTITIES
+
+Marketplace e-commerce entity must require sellers through an undertaking to ensure that descriptions, images, and other content pertaining to goods or services are accurate and correspond with the appearance, nature, quality, purpose, and general features of such goods or services.
+Marketplace e-commerce entity must provide details about sellers offering goods and services including business name, geographic address, customer care number, and any rating or aggregated feedback.
+Marketplace e-commerce entity must, on written request from a consumer after purchase, provide information regarding the seller including principal geographic address, name and details of website, email address, and other information necessary for dispute resolution.
+Marketplace e-commerce entity must provide a ticket number for each complaint lodged through which the consumer can track the status of the complaint.
+Marketplace e-commerce entity must display information relating to return, refund, exchange, warranty and guarantee, delivery and shipment, modes of payment, and grievance redressal mechanism.
+Marketplace e-commerce entity must display information on available payment methods, security of payment methods, fees or charges payable by users, procedure to cancel regular payments, and charge-back options if any.
+Marketplace e-commerce entity must display an explanation of the main parameters determining the ranking of goods or sellers on its platform in plain and intelligible language.
+Marketplace e-commerce entity must include in its terms and conditions a description of any differentiated treatment given between goods, services, or sellers of the same category.
+Marketplace e-commerce entity must take reasonable efforts to maintain records allowing identification of sellers who have repeatedly offered goods or services that have previously been removed under applicable intellectual property laws.
+
+SECTION: DUTIES OF SELLERS ON MARKETPLACE
+
+Seller must not adopt any unfair trade practice whether in the course of the offer on the e-commerce entity's platform or otherwise.
+Seller must not falsely represent itself as a consumer and post reviews about goods or services.
+Seller must not misrepresent the quality or features of any goods or services.
+Return is eligible if goods or services are defective, deficient, or spurious.
+Return is eligible if goods or services are not of the characteristics or features as advertised or as agreed to.
+Return is eligible if goods or services are delivered late from the stated delivery schedule.
+Return is not eligible for late delivery if such late delivery was due to force majeure.
+Seller must have a prior written contract with the respective e-commerce entity in order to undertake or solicit sale or offer.
+Seller must appoint a grievance officer for consumer grievance redressal.
+Seller's grievance officer must acknowledge receipt of any consumer complaint within 48 hours.
+Seller's grievance officer must redress the complaint within one month from the date of receipt of the complaint.
+Seller must ensure advertisements for marketing of goods or services are consistent with the actual characteristics, access, and usage conditions of such goods or services.
+Seller must provide its legal name, principal geographic address, website name and details, email address, and customer care contact details to the e-commerce entity.
+Seller must provide GSTIN and PAN details to the e-commerce entity where applicable.
+Seller must display total price in a single figure of any good or service along with a breakup showing all compulsory and voluntary charges such as delivery charges, postage and handling charges, conveyance charges, and applicable tax.
+Seller must display all mandatory notices and information required by applicable laws, and the expiry date of goods being offered for sale where applicable.
+Seller must display all relevant details about goods and services including country of origin necessary for enabling the consumer to make an informed decision at the pre-purchase stage.
+Seller must display name and details of importer and guarantees related to authenticity or genuineness of imported products.
+Seller must display accurate information related to terms of exchange, returns, and refund including costs of return shipping.
+Seller must display any relevant guarantees or warranties applicable to goods or services.
+
+SECTION: DUTIES OF INVENTORY E-COMMERCE ENTITIES
+
+Inventory e-commerce entity must display accurate information related to return, refund, exchange, warranty and guarantee, delivery and shipment, cost of return shipping, mode of payments, and grievance redressal mechanism.
+Inventory e-commerce entity must display total price in a single figure of any good or service along with a breakup of all compulsory and voluntary charges including delivery charges, postage and handling charges, conveyance charges, and applicable tax.
+Inventory e-commerce entity must provide a ticket number for each complaint lodged through which the consumer can track the status of the complaint.
+Inventory e-commerce entity must not falsely represent itself as a consumer or post reviews about goods and services.
+Inventory e-commerce entity must not misrepresent the quality or features of any goods or services.
+Inventory e-commerce entity must ensure advertisements for marketing of goods or services are consistent with the actual characteristics, access, and usage conditions of such goods or services.
+Return is not eligible if the inventory e-commerce entity refuses to take back defective, deficient, or spurious goods.
+Return is eligible if goods or services are not of the characteristics or features as advertised or as agreed to.
+Return is eligible if goods or services are delivered late from the stated delivery schedule.
+Return is not eligible for late delivery if such late delivery was due to force majeure.
+Inventory e-commerce entity that explicitly or implicitly vouches for or guarantees the authenticity of goods or services sold by it shall bear appropriate liability in any action related to the authenticity of such goods or services.
+
+SECTION: LEGAL OVERRIDE
+
+Statutory consumer rights override platform policies.
+Contravention of these rules is subject to the provisions of the Consumer Protection Act 2019.

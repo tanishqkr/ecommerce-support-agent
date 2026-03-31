@@ -1,0 +1,49 @@
+[DOCUMENT: Amazon.in Refund Policy]
+
+[SECTION: Refund Trigger Conditions]
+* Refund is issued only after Amazon receives the returned item, for Amazon-delivered orders.
+* Refund is issued only after the seller notifies Amazon of receipt of the return, for seller-fulfilled orders.
+* For pre-paid transactions, refund is issued to the original payment method.
+* For Pay on Delivery orders, refund is issued to the customer's bank account via NEFT or as Amazon Pay balance.
+
+[SECTION: Refund Timelines — Amazon Delivered Orders (Prepaid)]
+* Amazon Pay Balance refund for Amazon-delivered prepaid orders is processed in up to 4 hours after return receipt.
+* Credit Card or Debit Card refund for Amazon-delivered prepaid orders is processed in up to 5 working days after return receipt.
+* UPI Linked Bank Account refund for Amazon-delivered prepaid orders is processed in up to 5 working days after return receipt.
+
+[SECTION: Refund Timelines — Seller-Fulfilled Orders (Prepaid)]
+* Credit Card or Debit Card refund for seller-fulfilled prepaid orders is processed in up to 5 working days after seller notifies Amazon of return receipt.
+* UPI Linked Bank Account refund for seller-fulfilled prepaid orders is processed in up to 5 working days after seller notifies Amazon of return receipt.
+
+[SECTION: Refund Timelines — Pay on Delivery Orders]
+* NEFT to Bank Account refund for Amazon-delivered Pay on Delivery orders is processed in up to 5 working days after return receipt.
+* NEFT to Bank Account refund for seller-fulfilled Pay on Delivery orders is processed in up to 5 working days after seller notifies Amazon of return receipt.
+* Amazon Pay Balance refund for Pay on Delivery orders is processed in up to 4 hours.
+* Paper Cheque refund is processed in up to 10 working days.
+
+[SECTION: Refund Method Constraints]
+* Refunds are not processed in cash under any circumstance.
+* Refunds via paper cheque are issued only in exceptional cases.
+* Refunds cannot be processed to third-party accounts.
+* The name on the customer's Amazon account must match the name of the bank account holder for NEFT refunds.
+* International customer refunds are issued only to the original payment method used at the time of purchase.
+
+[SECTION: Seller-Fulfilled Order Refunds]
+* For seller-fulfilled orders with damaged or defective items, the seller shall issue a refund only if the item cannot be repaired or replaced.
+* Refund for seller-fulfilled orders is processed only after the seller authorizes the refund.
+* Refund for seller-fulfilled orders is processed only after the seller notifies Amazon of receipt of the returned item.
+
+[SECTION: Amazon Pay Later Refunds]
+* If no installment has been paid for the returned product, the Amazon Pay Later limit shall be credited with the total order value.
+* If installments have already been paid, the paid amount shall be credited back to the customer's bank account and the credit limit shall be reinstated.
+
+[SECTION: EMI Refunds]
+* If an EMI has already been paid, the amount paid as EMI shall be refunded to the credit card and the loan shall be cancelled.
+* The card-issuing bank may charge nominal pre-closure charges if an EMI has already been paid.
+
+[SECTION: Shipping Cost Refunds]
+* Return shipping costs of up to Rs.100 are eligible for refund only for Fulfilled by Amazon and Prime Eligible item returns.
+* Gift-wrapping costs are eligible for refund only for Fulfilled by Amazon and Prime Eligible item returns.
+* Shipping cost refunds for Fulfilled by Amazon and Prime Eligible items are issued to the customer's Amazon Pay Balance only.
+* Return shipping costs exceeding Rs.100 for large and heavy items are eligible for additional refund only if proof of payment such as a courier receipt is submitted.
+* Shipping costs incurred for remorse returns are not eligible for refund from the seller.

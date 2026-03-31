@@ -1,0 +1,78 @@
+DOCUMENT: AJIO FEES AND PAYMENTS POLICY
+
+SECTION: PAYMENT OPTIONS
+
+Item is not eligible for purchase if payment is made through an international debit or credit card.
+Item is not eligible for purchase if the user does not provide correct, complete, and accurate financial information at the time of payment.
+Item is not eligible for purchase if the credit or debit card used is not lawfully owned by the user or the user has not been lawfully authorised to use it.
+Refund is not eligible if the transaction was declined due to lack of authorisation.
+Refund is not eligible if the transaction failed due to the user exceeding the credit or debit limit agreed between the user and the issuing bank.
+Refund is not eligible if the payment issue arose out of technical glitches occurring during a transaction beyond Reliance's control.
+Payment is not eligible for processing if Reliance is dissatisfied with the credibility of the user or the genuineness of the transaction.
+Order is not eligible for dispatch if Reliance determines the user has a suspicious or questionable transaction history on the platform.
+Refund is not eligible if the order was placed using a payment instrument not lawfully authorised for the user's use.
+
+SECTION: CASH ON DELIVERY
+
+Cash on delivery payment option is eligible only for orders with a maximum value of INR 20,000.
+Cash on delivery payment option is not eligible for certain products, certain users, or certain locations or pin codes as determined by Reliance.
+Cash on delivery limit is not guaranteed and may be lower for certain users, products, or locations.
+Offer or promotion relating to no cash on delivery charges is not eligible for customers with a high frequency of cancellations, exchanges, or returns due to suspicious or questionable transaction history.
+
+SECTION: PRICE DISCREPANCY RULES - AJIO
+
+Refund is eligible if the maximum retail price of the product delivered to the user on AJIO is lower than the price published on the platform.
+Claim for price discrepancy on AJIO must be submitted within 24 hours of receiving the product.
+Refund for price discrepancy on AJIO shall be issued within 7 to 10 business days of Reliance receiving the notice from the user.
+Refund for price discrepancy on AJIO shall be credited to the user's AJIO Wallet or given as a discount coupon redeemable against future purchases.
+Item is not eligible for dispatch if the maximum retail price of the product is higher than the price published on AJIO until the price discrepancy is rectified and the user pays the difference.
+Refund is eligible if the user refuses to pay the difference when the actual maximum retail price is higher than the published price on AJIO.
+Refund for refused price difference on AJIO shall be issued to the user's source account or AJIO Wallet or bank account within 7 to 10 business days.
+Refund for cash on delivery orders with price discrepancy on AJIO shall be transferred to the user's AJIO Wallet or bank account within 7 to 10 business days.
+Refund for non-cash on delivery orders with price discrepancy on AJIO shall be transferred to the user's source payment account within 7 to 10 business days.
+
+SECTION: PRICE DISCREPANCY RULES - AJIO LUXE
+
+Refund is eligible if the maximum retail price of the product delivered to the user on AJIO Luxe is lower than the price published on the platform.
+Claim for price discrepancy on AJIO Luxe must be submitted within 3 business days of receiving the product.
+Refund for price discrepancy on AJIO Luxe shall be issued within 15 business days of Reliance receiving the written notice from the user.
+Refund for price discrepancy on AJIO Luxe shall be credited to the user's AJIO Wallet or given as a discount coupon redeemable against future purchases.
+Item is not eligible for dispatch on AJIO Luxe if the maximum retail price of the product is higher than the price published until the discrepancy is rectified and the user pays the difference.
+Refund is eligible on AJIO Luxe if the user refuses to pay the difference when the actual maximum retail price is higher than the published price.
+Refund for refused price difference on AJIO Luxe shall be issued to the user's source account or AJIO Wallet or bank account within 15 business days.
+Refund for cash on delivery orders with price discrepancy on AJIO Luxe shall be transferred to the user's AJIO Wallet or bank account within 15 business days.
+Refund for non-cash on delivery orders with price discrepancy on AJIO Luxe shall be transferred to the user's source payment account within 15 business days.
+
+SECTION: AJIO WALLET
+
+Refund is not eligible to be transferred out of AJIO Wallet to any external bank account once credited to the AJIO Wallet.
+Refund credited to AJIO Wallet must be used only for shopping of products on the platform.
+Item is not eligible for AJIO Wallet credit or refund if Reliance suspects fraudulent activities associated with the user's account.
+All AJIO Wallet credit balance is forfeited if the user deactivates their AJIO Wallet and no refund shall be processed by Reliance for forfeited balances.
+Refund for purchases made using AJIO Wallet shall be processed only into the user's AJIO Wallet.
+
+SECTION: INVALIDATED PAYMENTS
+
+Refund is not eligible for an invalidated payment; instead, Reliance shall retrieve the invalidated payment amount from the user's AJIO Wallet.
+User must remit the invalidated payment to Reliance's bank account within 5 business days of receiving written notice if AJIO Wallet balance is insufficient to cover the invalidated payment.
+
+SECTION: UNAUTHORISED TRANSACTIONS
+
+Refund is eligible for an unauthorised purchase only if the user reports it to Reliance within 3 days of the date on which the unauthorised purchase was carried out.
+Refund for unauthorised purchase is eligible only if Reliance can cancel the order before the product is shipped.
+Refund is not eligible for unauthorised purchase if the product is already packed; the user must reject the shipment or return the product.
+Refund is not eligible for orders placed from another account using the user's card unless the user files a police complaint.
+
+SECTION: EMI
+
+Refund for EMI-related issues or charges is not eligible from Reliance; disputes must be addressed directly with the selected bank or financial institution.
+Charges related to the EMI payment option including interest rates, processing fees, and pre-closure charges are levied by the selected bank or financial institution and not by Reliance.
+
+SECTION: PROMOTIONS AND OFFERS
+
+Offer or promotion relating to no platform fees or charges is not eligible for customers with a high frequency of cancellations, exchanges, or returns due to suspicious or questionable transaction history.
+Promotional cashback balance in AJIO Wallet is subject to expiry on a periodic basis and is not eligible for cash conversion.
+
+SECTION: LEGAL OVERRIDE
+
+Statutory consumer rights override platform policies.

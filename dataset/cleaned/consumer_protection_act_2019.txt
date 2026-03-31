@@ -1,0 +1,90 @@
+DOCUMENT: CONSUMER PROTECTION ACT 2019 (INDIA)
+
+SECTION: DEFINITIONS
+
+Consumer is defined as any person who buys goods for consideration or hires services for consideration, including beneficiaries, but excluding persons who obtain goods for resale or commercial purpose.
+Buying goods and hiring services includes offline and online transactions through electronic means, teleshopping, direct selling, and multi-level marketing.
+Defect means any fault, imperfection, or shortcoming in quality, quantity, potency, purity, or standard required by law, contract, or as claimed by the trader.
+Deficiency means any fault, imperfection, shortcoming, or inadequacy in quality, nature, or manner of performance required by law or contract in relation to any service.
+Deficiency includes any act of negligence or omission or commission causing loss or injury to the consumer.
+Deficiency includes deliberate withholding of relevant information from the consumer.
+E-commerce is defined as buying or selling of goods or services including digital products over a digital or electronic network.
+Unfair trade practice means any trade practice that uses unfair or deceptive methods to promote the sale, use, or supply of goods or services.
+Unfair contract means a contract with terms that cause significant change in the rights of the consumer, including requiring excessive security deposits, imposing disproportionate penalties, or imposing unreasonable charges.
+Misleading advertisement means an advertisement that falsely describes a product or service, gives false guarantees, or deliberately conceals important information.
+Spurious goods means goods falsely claimed to be genuine.
+Product liability means the responsibility of a product manufacturer or product seller to compensate for harm caused to a consumer by a defective product or deficiency in services.
+Restrictive trade practice means a trade practice that manipulates price or conditions of delivery or affects flow of supplies in a manner that imposes unjustified costs or restrictions on consumers.
+
+SECTION: CONSUMER RIGHTS
+
+Refund is eligible if goods bought by the consumer suffer from one or more defects.
+Refund is eligible if services hired or availed by the consumer suffer from any deficiency.
+Refund is eligible if a trader charges a price in excess of the price fixed by law, displayed on the goods, displayed on the price list, or agreed between the parties.
+Return is eligible if goods hazardous to life and safety are offered for sale in contravention of safety standards required by law.
+Refund is eligible if goods hazardous to life and safety are offered for sale and the trader knows such goods are unsafe.
+Claim is eligible under product liability action if harm is caused to a consumer by a defective product manufactured by a product manufacturer or serviced by a product service provider or sold by a product seller.
+
+SECTION: PRODUCT LIABILITY
+
+Refund or compensation is eligible if a product contains a manufacturing defect.
+Refund or compensation is eligible if the product is defective in design.
+Refund or compensation is eligible if there is a deviation from manufacturing specifications.
+Refund or compensation is eligible if the product does not conform to its express warranty.
+Refund or compensation is eligible if the product fails to contain adequate instructions of correct usage or warnings to prevent harm.
+Product manufacturer is liable in a product liability action even if the manufacturer was not negligent or fraudulent in making an express warranty.
+Refund or compensation is eligible if the service provided was faulty, imperfect, deficient, or inadequate in quality, nature, or manner of performance required by law or contract.
+Refund or compensation is eligible if the service provider committed an act of omission, commission, or negligence, or consciously withheld information causing harm.
+Refund or compensation is eligible if the service did not conform to express warranty or terms and conditions of the contract.
+Refund or compensation is eligible against a product seller if the seller exercised substantial control over the designing, testing, manufacturing, packaging, or labelling of the defective product.
+Refund or compensation is eligible against a product seller if the seller altered or modified the product and such alteration was a substantial factor in causing the harm.
+Refund or compensation is eligible against a product seller if the seller made an express warranty independently and the product failed to conform to that warranty.
+Refund or compensation is eligible against a product seller if the identity of the product manufacturer is not known or cannot be served with process.
+Refund or compensation is eligible against a product seller if the seller failed to pass on warnings or instructions from the product manufacturer and such failure was the proximate cause of harm.
+Product liability action is not eligible if the product was misused, altered, or modified by the consumer at the time of harm.
+Product liability action is not eligible if the product was used by the consumer under the influence of alcohol or any prescription drug not prescribed by a medical practitioner.
+Product manufacturer is not liable for failure to warn about a danger that is obvious or commonly known to the user.
+
+SECTION: UNFAIR TRADE PRACTICES
+
+Refund is eligible if the trader falsely represents goods as being of a particular standard, quality, quantity, grade, composition, style, or model.
+Refund is eligible if the trader falsely represents services as being of a particular standard, quality, or grade.
+Refund is eligible if the trader represents rebuilt, second-hand, renovated, reconditioned, or old goods as new goods.
+Refund is eligible if the trader gives a false or misleading representation concerning the need for or usefulness of goods or services.
+Refund is eligible if the trader makes a materially misleading representation to the public concerning the price at which a product or service has been or is ordinarily sold.
+Refund is eligible if the trader refuses to take back defective goods or withdraw deficient services and refund the consideration within the period stipulated in the bill or cash memo or within 30 days where no period is stipulated.
+Refund is eligible if the trader discloses personal information given in confidence by the consumer without authorization under law.
+Refund is eligible if the trader does not issue a bill, cash memo, or receipt for goods sold or services rendered.
+
+SECTION: REDRESSAL JURISDICTION
+
+Complaint is eligible before the District Commission if the value of goods or services paid as consideration does not exceed one crore rupees.
+Complaint is eligible before the State Commission if the value of goods or services paid as consideration exceeds one crore rupees but does not exceed ten crore rupees.
+Complaint is eligible before the National Commission if the value of goods or services paid as consideration exceeds ten crore rupees.
+Complaint against unfair contracts is eligible before the State Commission if the value of goods or services does not exceed ten crore rupees.
+Complaint against unfair contracts is eligible before the National Commission if the value of goods or services exceeds ten crore rupees.
+Claim must be submitted within two years from the date on which the cause of action has arisen.
+Claim submitted after two years is eligible only if the complainant satisfies the Commission that there was sufficient cause for not filing within the limitation period.
+Appeal against a District Commission order must be filed within 45 days from the date of the order.
+Appeal against a State Commission order must be filed within 30 days from the date of the order.
+Appeal against a National Commission order must be filed within 30 days from the date of the order before the Supreme Court.
+Appeal is not eligible unless the appellant has deposited 50 percent of the awarded amount before filing.
+
+SECTION: DISTRICT COMMISSION ORDERS
+
+Replacement is eligible if goods suffer from a defect confirmed by the appropriate laboratory.
+Refund is eligible if the District Commission is satisfied that goods are defective or services are deficient or unfair trade practices are proved.
+Refund must include the price paid along with applicable interest as decided by the Commission.
+Compensation is eligible for any loss or injury suffered by the consumer due to negligence of the opposite party.
+Compensation is eligible in a product liability action under the Act.
+Refund is eligible as a prorated amount to consumers who are not individually identifiable, with a minimum of 25 percent of the value of defective goods sold or deficient services provided.
+
+SECTION: PENALTIES FOR NON-COMPLIANCE
+
+Statutory consumer rights override platform policies.
+Whoever fails to comply with any order of the District Commission, State Commission, or National Commission shall be punishable with imprisonment of not less than one month extending up to three years, or with fine of not less than twenty-five thousand rupees extending up to one lakh rupees, or both.
+False or misleading advertisements are not eligible to be made by manufacturers or service providers.
+Penalty for false or misleading advertisement is imprisonment up to two years and fine up to ten lakh rupees, and for every subsequent offence imprisonment up to five years and fine up to fifty lakh rupees.
+Penalty for non-compliance with Central Authority directions is imprisonment up to six months or fine up to twenty lakh rupees, or both.
+Penalty for manufacturing, storing, selling, distributing, or importing adulterated goods resulting in consumer death is imprisonment of not less than seven years extending up to life and fine of not less than ten lakh rupees.
+Penalty for manufacturing, storing, selling, distributing, or importing spurious goods resulting in consumer death is imprisonment of not less than seven years extending up to life and fine of not less than ten lakh rupees.

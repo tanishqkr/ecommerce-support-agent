@@ -1,0 +1,56 @@
+DOCUMENT: PERISHABLE GOODS RETURN AND REFUND POLICY
+
+SECTION: DEFINITIONS
+
+Perishable goods include fresh fruits, vegetables, meats, seafood, poultry, dairy products, baked goods with shelf life under 30 days, cut or live flowers, organic produce, ready-to-eat meals, meal kits, chilled prepared foods, and frozen foods.
+Damaged goods are items received in a physically broken, crushed, leaked, or structurally compromised state attributable to transit or handling.
+Spoiled goods are items received in a state of biological degradation including visible mold, foul odor, discoloration, or exceeding the printed expiry date at the time of delivery.
+Reporting window is the mandatory period within which a return or refund claim must be initiated by the customer, beginning at the timestamp of delivery confirmation.
+
+SECTION: ELIGIBILITY RULES
+
+Item is not eligible for return under standard circumstances on the basis of customer preference, change of mind, or delayed consumption.
+Item is eligible for return or refund only if the item was delivered in a physically damaged condition.
+Item is eligible for return or refund only if the item was delivered in a spoiled or inedible condition.
+Item is eligible for return or refund only if the item delivered does not match the order in product, variant, or quantity.
+Item is eligible for return or refund only if the item's printed expiry date was surpassed prior to the date of delivery.
+Item is eligible for return or refund only if temperature-sensitive items were delivered outside the required cold chain specification, evidenced by packaging condition or temperature indicator failure.
+Return for change of mind is not eligible for perishable goods.
+
+SECTION: CLAIM TIMELINE
+
+Claim must be submitted within 24 hours of delivery confirmation timestamp.
+Claim submitted after 24 hours shall be automatically rejected and is not eligible for manual review.
+Platform-recorded delivery timestamps shall be treated as the definitive reference for all time calculations.
+Claim must be timestamped within the 24-hour window through any channel including app, website, or customer support to be considered valid.
+
+SECTION: EVIDENCE REQUIREMENTS
+
+Claim must include a minimum of two clear photographs of the item showing the defect, damage, or spoilage with the item and its original packaging in the same frame.
+Claim must include one photograph of the outer delivery packaging as received showing any external damage.
+Claim must include one photograph clearly showing the product label including the expiry or best-before date and batch number.
+Claim for frozen goods must include a video demonstrating spoilage characteristics such as texture, odor description, or packaging failure.
+Claim submission is not eligible if evidence is incomplete; resubmission must occur within the 24-hour window.
+
+SECTION: NON-ELIGIBILITY EXCEPTIONS
+
+Item is not eligible for refund on grounds of aesthetic dissatisfaction, minor cosmetic variation, or natural product variation such as size, color, or shape differences within acceptable agricultural norms.
+Partial spoilage of a multi-unit pack is not eligible for a full order refund; refund shall be prorated to the affected unit only.
+Item is not eligible for refund if stored incorrectly by the customer after delivery, including failure to refrigerate dairy products.
+Item is not eligible for refund if marked as near expiry or short shelf life at the time of listing and discounted accordingly, solely on the basis of expiry proximity.
+Item is not eligible for refund if spoilage resulted from delivery delays caused by force majeure events, customer-caused failed delivery attempts, or incorrect delivery addresses.
+
+SECTION: PROCESSING TIMELINES
+
+Claim must be submitted within 24 hours of delivery timestamp.
+Evidence review and acknowledgement shall occur within 4 business hours of claim submission.
+Claim decision shall be issued within 24 business hours of evidence receipt.
+Refund initiation shall occur within 2 business days of claim approval.
+Refund credit to payment source shall occur within 3 to 7 business days depending on the bank.
+Platform credit or coupon as an alternate refund shall be issued within 24 hours of claim approval.
+
+SECTION: LEGAL OVERRIDE
+
+Statutory consumer rights override platform policies.
+This policy is subject to applicable consumer protection laws of the jurisdiction in which the order was delivered.
+Statutory consumer rights shall prevail in cases of conflict with this policy.

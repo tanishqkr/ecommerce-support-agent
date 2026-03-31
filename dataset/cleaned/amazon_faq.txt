@@ -1,0 +1,57 @@
+[DOCUMENT: Amazon Returns and Replacements FAQ]
+
+[SECTION: Return Eligibility]
+* An item is eligible for return only if it is identified as "returnable" on the product detail page on Amazon.in.
+* An item is eligible for return only if the return request is made within the return window period specified on the product detail page.
+* An item is eligible for return if it is physically damaged.
+* An item is eligible for return if it is defective.
+* An item is eligible for return if it has missing parts or accessories.
+* An item is eligible for return if it is different from its description on the product detail page.
+* Return for change of mind is eligible only if the product category allows remorse returns.
+* An item is eligible for return if the item is missing and the delivery box is tampered.
+* An item is eligible for return if the customer received an empty package.
+* An item is eligible for return if part of the order (accessory) was missing.
+
+[SECTION: Non-Returnable Items]
+* Items of consumable nature are not eligible for return.
+* Wax candles are not eligible for return.
+* Pet food and grooming products are not eligible for return.
+* Cleaning products are not eligible for return.
+* Fertilizers are not eligible for return.
+* Items marked as "non-returnable" on the product detail page are not eligible for return.
+* Gift cards once purchased are not eligible for cancellation or return due to regulatory restrictions.
+
+[SECTION: Return Eligibility Conditions]
+* Both the shipping address and the item must meet return eligibility requirements.
+* If the shipping address is not eligible for pickup, a Self-Return option shall be provided.
+* For Pay on Delivery orders, refund is issued to the customer's bank account via NEFT or to the Amazon account as Amazon Pay balance.
+* Products fulfilled by third-party marketplace sellers must follow the third-party seller return process.
+* If a third-party seller fails to address the return query within three business days, the customer is eligible to file an A-to-Z Guarantee claim.
+
+[SECTION: Gift Returns]
+* A gift item is eligible for return in exchange for an Amazon Pay Gift Card only if the gift sender has sent a Gift Receipt to the recipient.
+* Gift cards are not eligible for return or cancellation due to regulatory restrictions.
+
+[SECTION: Replacement Eligibility]
+* An item is eligible for replacement if it arrives damaged or defective.
+* An item is eligible for replacement if it does not match the product description on the website.
+* An item is eligible for replacement if it is missing parts or accessories.
+* A free replacement is eligible only if the same seller has the exact same item in stock.
+* Replacement is not eligible for delivery to a different address.
+* If a replacement cannot be delivered to the required address, the customer must return the item for a refund and place a new order with the correct address.
+
+[SECTION: Wrong Item Received]
+* An item is eligible for return or replacement if a wrong item is received.
+* Return of a wrong item is eligible only if the item is in its original condition and still in its original packaging.
+
+[SECTION: Shipping Charge Refunds]
+* The Rs.40 shipping fee is not eligible for refund when the original order was below Rs.499 and a replacement is sent.
+* The standard shipping charge is not eligible for refund when the original order did not qualify for free shipping.
+
+[SECTION: Missing Warranty Card or User Manual]
+* A refund or replacement is not eligible solely due to a missing warranty card or user manual.
+* The invoice is sufficient to claim warranty in the absence of a warranty card.
+* This rule applies only to Large Appliances, Home Entertainment products, and Air Coolers.
+
+[SECTION: Missing Bookmarks in Books]
+* A missing bookmark is not eligible for return or refund.

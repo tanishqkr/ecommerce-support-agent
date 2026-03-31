@@ -1,0 +1,54 @@
+DOCUMENT: FINAL SALE AND NON-RETURNABLE ITEMS POLICY
+
+SECTION: DEFINITIONS
+
+Final sale item means any product explicitly designated on its product listing page with the tag or label Final Sale, Non-Returnable, Clearance No Returns, As-Is, or equivalent, applied by the platform or seller at the time of listing and visible to customers prior to purchase.
+Clearance sale means a promotional event during which selected items are offered at substantially reduced prices to liquidate excess inventory, discontinue a product line, or clear seasonal stock.
+Items offered during clearance sale events shall be treated as final sale items unless individually exempted in writing.
+Deeply discounted item means an item sold at a discount exceeding 50 percent off the listed Maximum Retail Price or original selling price, which may be designated as final sale at the platform's discretion.
+Customer acknowledgement means a mandatory explicit confirmation by the customer obtained during checkout that the customer has read and accepted the final sale designation and the associated no return, no refund restriction.
+
+SECTION: CORE NON-RETURNABILITY RULES
+
+Item is not eligible for return, exchange, or refund if designated as a final sale item, except as mandated by applicable law.
+Return is not eligible for final sale items on grounds of change of mind, buyer's remorse, aesthetic dissatisfaction, price differences found elsewhere, or incorrect size or fit selection by the customer.
+Exchange for a different size, color, variant, or product is not eligible for final sale items.
+Store credit, platform wallet credit, gift cards, or coupons are not eligible as substitutes for returns on final sale items, except as mandated by applicable law.
+Purchase of a final sale item must not proceed without the customer acknowledgement confirmation being registered at checkout.
+
+SECTION: PRE-PURCHASE DISCLOSURE REQUIREMENTS
+
+Product listing page must display the Final Sale No Returns designation in a visually distinct manner using a badge, tag, or highlighted text.
+Cart summary page must display a notice stating that one or more items in the cart are final sale and are not returnable or refundable.
+Checkout confirmation page must present a customer acknowledgement checkbox or equivalent confirmation mechanism.
+Order confirmation communication via email or SMS must reiterate the final sale status and no return, no refund condition for all applicable items.
+
+SECTION: EXCEPTIONS TO NON-RETURNABILITY
+
+Refund is eligible if the item delivered is materially different from the item ordered including wrong product, wrong SKU, or wrong category delivered.
+Replacement is eligible if the item delivered is materially different from the item ordered.
+Refund is eligible if the item is delivered in a condition that renders it completely unfit for its intended purpose due to damage sustained in transit, not pre-existing damage disclosed in the listing.
+Refund is eligible if applicable consumer protection law in the customer's jurisdiction mandates a return or refund right that cannot be contractually waived.
+Statutory consumer rights override platform policies.
+No exceptions beyond wrong product delivered, transit damage, and statutory rights shall be entertained for final sale items.
+
+SECTION: EVIDENCE REQUIREMENTS
+
+Claim for wrong product delivered must include an order confirmation screenshot and photograph of the product received clearly showing the product label and identifying features.
+Claim for transit damage must include photographs of the outer packaging and the damaged product as received.
+Claim for transit damage must be submitted within 48 hours of delivery.
+Claim for statutory rights must include a written citation of the applicable statutory provision.
+
+SECTION: PROCESSING TIMELINES
+
+Exception claim for wrong product or transit damage must be submitted within 48 hours of delivery.
+Statutory claim review shall be completed within 10 business days of submission.
+Claim decision shall be issued within 3 business days of evidence receipt.
+Refund initiation shall occur within 2 business days of approval.
+Refund credit to payment source shall occur within 3 to 7 business days depending on the bank.
+
+SECTION: LEGAL OVERRIDE
+
+Statutory consumer rights override platform policies.
+This policy does not override, diminish, or waive any statutory consumer rights conferred by applicable law that cannot be contractually excluded.
+Customer may escalate a final sale dispute to the platform's Grievance Officer within 30 days of the decision, citing the statutory basis for the claim.

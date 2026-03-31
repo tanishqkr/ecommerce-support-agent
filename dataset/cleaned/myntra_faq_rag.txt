@@ -1,0 +1,226 @@
+[DOCUMENT: Myntra FAQ — Returns, Refunds, Cancellations and Payments]
+
+[SECTION: Order Cancellation Eligibility]
+* Order is eligible for cancellation only if it has not yet been dispatched.
+* Order is not eligible for cancellation once it is out for delivery.
+* Order is eligible for rejection at the doorstep if it is already out for delivery.
+* Refund is issued to the original payment source if the order amount was paid online and the order is rejected at the doorstep.
+* Order is eligible for cancellation when it is in packed or shipped status, as long as the cancel option is available on the platform.
+* Items purchased on sale are eligible for cancellation under the same cancellation policy.
+* Any amount paid shall be credited to the same payment mode used for the original payment upon cancellation.
+
+[SECTION: Cancellation Refund Timelines]
+* For Cash on Delivery orders that are cancelled, no refund is due as no payment was made.
+* Refund for cancellations paid via Credit Card, Debit Card, Net Banking, or Wallet is issued to the source account within 7 to 10 days of order cancellation.
+* Refund for cancellations paid via PhonePe wallet is issued instantly post order cancellation.
+
+[SECTION: Platform Fee — Refund Eligibility]
+* Platform fee is eligible for refund only if the full order is cancelled.
+* Platform fee is not eligible for refund if the order is partially cancelled.
+* Platform fee is not eligible for refund if the order is returned.
+* Platform fee is not eligible for refund for accounts whose return behavior does not adhere to the fair usage policy, irrespective of order value.
+
+[SECTION: COD Fee — Refund Eligibility]
+* COD fee is not eligible for refund in the event of cancellation, whether partial or full.
+* COD fee is not eligible for refund in the event of a return.
+
+[SECTION: Return Eligibility — General Rules]
+* Item is eligible for return or exchange within the return or exchange period specified on the product detail page.
+* Return is eligible only if the product is unused.
+* Return is eligible only if the product is unwashed.
+* Return is eligible only if all original tags are intact.
+* Return is eligible only if the Seal Tag received with the item remains attached and intact.
+* Return for change of mind is eligible only if the product category allows remorse returns.
+* Return is not eligible if the item is used, damaged, or original tags are missing.
+* Return request shall be declined if the product returned is used, damaged, or has original tags missing.
+* Refund is not eligible if the return request is declined.
+* If a declined return is re-shipped to the customer and the customer fails to accept it, the customer shall continue to be not eligible for a refund.
+* No products shall be accepted for return or exchange if the warranty card is missing.
+
+[SECTION: Non-Returnable and Non-Exchangeable Products]
+* Swarovski products are not eligible for return or exchange.
+* Precious Jewelry is not eligible for return or exchange.
+* Rayban Sunglasses are not eligible for return or exchange.
+* Socks are not eligible for return or exchange.
+* Briefs are not eligible for return or exchange.
+* Shapewear Bottoms are not eligible for return or exchange.
+* Any Lingerie Set that includes a Brief is not eligible for return or exchange.
+* Swimwear is not eligible for return or exchange.
+* Mittens are not eligible for return or exchange.
+* Wrist-Bands are not eligible for return or exchange.
+* Non-returnable products and categories are not eligible for exchange.
+* Certain Innerwear, Sleepwear, and Lingerie items are eligible for self-ship return only.
+* Pickup facility is not available for Innerwear, Sleepwear, and Lingerie items that are handled differently due to their intimate nature.
+* Innerwear, Sleepwear, and Lingerie items handled under the intimate category are not eligible for exchange.
+
+[SECTION: Category-Specific Return Restrictions]
+* Fine Jewellery, watches, and selected products susceptible to damage are eligible for return or exchange only for a limited number of days as specified on the product detail page.
+* Sherwanis are eligible for exchange only and are not eligible for return.
+* Return window for the specific number of days a product is eligible for return or exchange must be checked on the product detail page.
+
+[SECTION: Fine Jewellery — Return Rules]
+* Fine Jewellery return request must be submitted within 10 days of delivery.
+* Fine Jewellery return is not eligible if the return request is submitted after 10 days of delivery.
+* Fine Jewellery return is eligible only if the customer provides an unboxing and repacking video.
+* Fine Jewellery refund is issued only after a successful quality check is completed.
+* Fine Jewellery delivered in tamper-proof packaging that appears tampered must not be accepted by the customer.
+
+[SECTION: Return Pickup Conditions]
+* Return via pickup is eligible only if the customer's pin code is serviceable for pickup.
+* Return pickup shall be attempted within 4 to 7 days from the request placement date.
+* Return is not eligible for pickup if the pickup attempt fails three times; the pickup request shall be marked as failed.
+* Return request is eligible to be re-initiated if the item still meets the return criteria and is within the return or exchange period.
+* Return is not eligible if the product has been used between failed pickup attempts.
+
+[SECTION: Quality Check — Return Acceptance]
+* Return is eligible only if the product passes the quality check at the time of pickup or upon receipt at the warehouse.
+* If the picked-up product does not pass the quality check, the product shall be re-shipped to the customer.
+* Refund is not eligible if the quality check fails.
+* For self-ship returns, refund is initiated only if the returned product passes the quality check at the warehouse.
+* If the quality check fails on a self-ship return, the product shall be re-shipped to the customer.
+
+[SECTION: Return on Hold — No Questions Asked Policy]
+* Return under No Questions Asked policy shall be put on hold if, at the time of pickup, the product is found to be used or without original tags intact.
+* Return confirmation by the customer at the time of creating the return request is mandatory; the customer must confirm the product is unused with original tags intact.
+
+[SECTION: Exchange Policy Rules]
+* Exchange is eligible only if the customer's address is serviceable for exchange.
+* Exchange is eligible only if the item is in stock.
+* Exchange or replacement shall be delivered only to the same address where the original product was delivered.
+* Exchange is not eligible for delivery to a different address.
+* Exchange is eligible only for a single item per exchange request.
+* Multiple items from the same order are eligible for exchange only by initiating a separate exchange request for each item.
+* Exchange for the same size or different size of the same style shall be provided free of cost within the specified exchange period.
+* Exchange for an item of higher value shall result in the difference in amount being charged to the customer.
+* Exchange for an item of lower value shall result in the difference in amount being refunded to the customer post successful pickup of the original item.
+* Net amount paid by the customer (excluding instant cashback or discount) shall be used to calculate the difference in amount for an exchange.
+* Refund applicable for an exchange is triggered only after successful pickup of the original item.
+* Platform Handling Fee is not applicable to exchanged orders.
+* Myntra reserves the right to restrict exchange if the customer breaches or misuses the exchange policy.
+* If the purchased item has a free gift or offer associated with it, the free product must also be returned if the customer wishes to return the main item.
+* Myntra is not liable for products returned by mistake.
+* Myntra is not responsible for misplacement or replacement of a product returned by mistake.
+
+[SECTION: Self-Ship Return Rules]
+* Self-ship return is eligible for shipping cost reimbursement only if the return meets the Returns and Exchange Policy.
+* Self-ship return shipping cost reimbursement is eligible only if the scan copy of the courier receipt is shared and validated by Myntra.
+* Courier receipt must capture the weight of the return package to be eligible for reimbursement.
+* Courier receipt must include residential or office address, destination address, shipment date, amount, and other details to be eligible for reimbursement.
+* Courier receipt information must not be edited or overwritten; edited receipts are not eligible for reimbursement.
+* Courier charge must not exceed the Sender-Destination-Service combination; overshoot amounts shall be cross-checked with the courier company.
+
+[SECTION: Refund Timelines — Returns]
+* Refund is initiated upon successful pickup of the return product as per the Returns Policy.
+* Refund for Debit Card or Credit Card is processed within 5 days of refund initiation.
+* Refund for UPI is processed within 1 day of refund initiation.
+* Refund for IMPS or NEFT is processed within 1 day of refund initiation.
+* Refund for Net Banking is processed within 7 days of refund initiation.
+* Refund for Myntra Credit or Loyalty Points is processed within 2 hours of refund initiation.
+* Refund for Wallets (including PhonePe, PayZap) is processed within 1 day of refund initiation.
+* For UPI and Wallet refunds, refund shall reflect instantly and within 48 hours in case of delay.
+* For Credit Card, Debit Card, and Net Banking refunds, refund shall take up to 5 business days to reflect depending on the bank partner.
+* For older refund timeline reference: Debit Card, Credit Card, Net Banking, EMI — 7 days. UPI — 5 days. Myntra Credit, Super Coins, Gift Card, LP — instant, up to 2 days in case of delay. Wallets — instant, up to 2 days in case of delay. Simple Paylater and Pay in 3 — instant, up to 5 days in case of delay. Lazypay — instant, up to 5 days in case of delay.
+* Instant Refund is not available for select pin codes.
+* Instant Refund is not available for all self-ship returns.
+
+[SECTION: Refund — Payment Method Rules]
+* Partial or full payment made through PhonePe wallet shall be refunded to the same PhonePe wallet account.
+* Partial or full payment made through a Gift Card shall be refunded to the same Gift Card.
+* If an order placed using PhonePe wallet fails or is rejected after payment is received, the payment shall be automatically refunded to the PhonePe wallet.
+* Refund for cancelled PhonePe wallet orders shall reflect immediately in the PhonePe wallet.
+* Refund for returned items paid via PhonePe wallet shall reflect instantly post return acceptance.
+* Items returned that were purchased with Myntra Credit shall have the refunded amount added back to the Myntra Credit.
+
+[SECTION: Instant Cashback Recovery — Refund Adjustments]
+* If a partial cancellation or return causes the order value to fall below the minimum threshold required by the offer, the instant cashback provided under the offer is subject to recovery.
+* Cashback recovery amount shall be deducted from the refund and adjusted against remaining items in the order.
+* Cashback recovery deduction is not applied if the customer chooses to receive the refund in the form of Myntra Credits.
+
+[SECTION: Pilferage and Partial Order Claims]
+* Pilferage claim must be submitted within 72 hours of delivery.
+* Pilferage claim is not eligible if submitted after 72 hours of delivery.
+* If a pilferage delivery is received, the pilferage claim must be submitted on the same day of delivery.
+* Refund for pilferage claims on prepaid and Cash on Delivery orders is issued only after investigation is completed.
+* Refund is not eligible if the customer fails to provide adequate information about the pilferage case.
+* Refund is not eligible if the customer fails to provide snapshots of the packet and box.
+* Refund is not eligible if the customer has used the item for which the pilferage claim is raised.
+* Customer must not dispose of the packaging for 3 to 4 days post delivery.
+* For a missing component from a multi-component item (such as Kurta, Bed-sheets, Innerwear sets), only an exchange or return option shall be provided based on serviceability and product type.
+
+[SECTION: Open Box Delivery — Return and Refund Rules]
+* Open Box Delivery is available only in select pin codes.
+* For COD orders under Open Box Delivery, payment must be made before the box is opened.
+* If the product is found missing, damaged, or completely different from what was ordered during Open Box Delivery, the customer must not accept the order.
+* Refund for COD orders where product is refused during Open Box Delivery is issued on the spot from the delivery partner.
+* Refund for prepaid orders where product is refused during Open Box Delivery is credited back to the source.
+* Return request for a missing, damaged, or wrong product is not eligible once Open Box Delivery is successfully completed.
+* Replacement or exchange is not eligible if the customer marks the product as wrong, damaged, or missing during Open Box Delivery; only refund is eligible in such cases.
+* Exchange for size or fit issues after accepting Open Box Delivery requires a separate return or exchange request.
+
+[SECTION: Delivery Non-Receipt Claim]
+* Claim for order non-delivery must be submitted within 5 days from the alleged date of delivery as reflected on the Myntra portal.
+* Non-receipt claim is not eligible if submitted after 5 days from the alleged date of delivery.
+
+[SECTION: Gift Card — Refund and Return Rules]
+* Gift Cards are not eligible for refund after funds are loaded onto the card.
+* Gift Cards are not eligible for exchange for cash.
+* Cash cannot be withdrawn from the available balance of a Gift Card.
+* Gift Cards are not eligible for cancellation or refund after the order is placed.
+* Myntra-issued gift cards are not eligible for cancellation after the order is placed.
+* Only one Gift Card is eligible for use in a single transaction.
+* Gift Card validity is 12 months from the date of issue.
+
+[SECTION: Myntra Credit — Eligibility Constraints]
+* Myntra Credit is not eligible for transfer to another Myntra account.
+* Myntra Credit is not eligible for transfer to a bank account or wallet.
+* Myntra Credit is not eligible for redemption for cash.
+* Myntra Credit is eligible for use only on the registered Myntra account on the Myntra app or website.
+* Myntra Credit is not eligible for use to pay for orders placed on other Myntra accounts.
+* Myntra Credit has a maximum validity of 1 year for refunds and top-ups.
+* Myntra Credit shall expire at the end of its validity period if not used.
+* Myntra Credit account shall be suspended or closed if the Myntra account is suspended or closed.
+
+[SECTION: COD Eligibility Rules]
+* COD is eligible only for orders between Rs. 299 and Rs. 49,999.
+* COD is not eligible if the order value is below Rs. 299.
+* COD is not eligible if the order value exceeds Rs. 49,999.
+* COD is not eligible if an existing COD order is pending delivery and the combined value of both orders exceeds Rs. 49,999.
+* COD limit for Tanishq products is Rs. 15,000.
+* COD is not eligible in locations where the delivery partner cannot accept cash.
+* COD is not eligible if the order value exceeds the cash limit set by the delivery partner for that destination.
+* Rs. 2,000 currency notes are not accepted for COD payments effective September 20, 2023.
+* COD limit shall be decreased to Rs. 24,999, Rs. 1,500, or Rs. 0 based on order rejection percentage.
+* COD limit shall be reset to Rs. 49,999 based on order acceptance percentage and number of prepaid orders placed after a limit decrease.
+* COD option shall be disabled for accounts that fail Myntra's email verification process.
+
+[SECTION: EMI — Eligibility and Refund Rules]
+* EMI option is not eligible for Jewellery products.
+* EMI is eligible only above a minimum order value that varies by bank.
+* EMI refund rules are at the sole discretion and approval of the card-issuing bank.
+* If bank rejects EMI conversion, the customer must pay the full transaction amount to the bank.
+
+[SECTION: Alteration Services — Non-Returnable Condition]
+* Any product given for alteration is not eligible for return.
+* Any product given for alteration is not eligible for refund.
+* Alteration services must not be availed if the customer intends to return the product.
+
+[SECTION: Simpl Pay in 3 — Refund Rules]
+* Refund for Simpl Pay in 3 is processed on the Last Paid First Refunded principle.
+* Refund for Simpl Pay in 3 is initiated only after successful refund initiation by Myntra.
+* Refund for Simpl Pay in 3 is processed within 3 to 7 working days after initiation.
+* If payment was deducted but the order was not placed, the amount shall be automatically refunded within 3 to 7 working days.
+
+[SECTION: Account and Fraud Rules Affecting Refund Eligibility]
+* Refund is not eligible if the customer fails to reply to the payment verification mail sent by Myntra.
+* Refund is not eligible if the customer fails to produce adequate documents during payment verification.
+* Refund is not eligible if the customer returns the wrong product.
+* Refund eligibility for terminated accounts is at the sole discretion of Myntra.
+* Myntra Credits earned as goodwill compensation, via loyalty or referral program, promotional campaigns, or through gift cards purchased on other platforms shall be forfeited if the account is terminated.
+* Myntra reserves the right to cancel bulk orders or fraud orders at any stage of product delivery without refund of any promotional voucher used.
+* Excessive returns by a customer shall be treated as misuse of the return policy.
+* Accounts with high percentage of returns or non-accepted shipments are subject to COD disabling and platform fee collection.
+* Customer is not eligible for tier upgrade in the Myntra Insider program if product returns are higher than average.
+
+[SECTION: Donation — Refund Rules]
+* Donation amount is not eligible for refund under any circumstance.
+* If the order containing a donation amount is cancelled or returned, refund shall be issued only for the cancelled or returned products, not for the donation amount.

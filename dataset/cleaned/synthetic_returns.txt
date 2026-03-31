@@ -1,0 +1,152 @@
+DOCUMENT: AJIO CANCELLATION RETURN AND REFUND POLICY
+
+SECTION: CANCELLATION RULES
+
+Cancellation is eligible only if the order has not yet been packed and invoice has not been generated.
+Cancellation is not eligible after the product has been packed and invoice has been generated.
+Cancellation is not eligible once the order status has moved from confirmed to packed, shipped, or out for delivery.
+Refund for a cancelled order shall be initiated within 10 business days of Reliance receiving the cancellation request.
+Refund for cancellation shall be credited to the same mode of payment used for purchase or to the user's AJIO Wallet.
+Item is eligible for rejection at delivery if the user changes their mind after dispatch, by refusing acceptance from the logistics partner.
+Item is eligible for rejection at delivery if the product package is tampered, torn, or opened at the time of delivery.
+
+SECTION: RETURN ELIGIBILITY CONDITIONS
+
+Item is eligible for return if the product is damaged.
+Item is eligible for return if both the product and shipping package are damaged.
+Item is eligible for return if the product is defective or not in working condition.
+Item is eligible for return if the product is of bad quality.
+Item is eligible for return if parts of the product or accessory are missing.
+Item is eligible for return if the product delivered is different from what was ordered based on the product description on the platform.
+Item is eligible for return if the user is dissatisfied with the quality due to size issue, fit issue, colour issue, manufacturing defects, shrinkage in fabric, or colour bleeding.
+
+SECTION: RETURN NON-ELIGIBILITY CONDITIONS
+
+Return is not eligible if the user placed the order for a wrong product model, colour, or incorrect product.
+Return is not eligible if the product belongs to the non-returnable product category.
+Return is not eligible if the user fails to request return or register a complaint within the applicable return period.
+Return is not eligible for Made to Order products.
+Return is not eligible if the product has been worn, washed, cleaned, or tampered with by the user.
+Return is not eligible if the price tag, bar code, brand tags, or original packaging material including brand boxes and protective coverage has been altered, damaged, or discarded by the user.
+Return is not eligible if the serial number, IMEI number, or bar code of the product does not match Reliance's records.
+Return is not eligible if the accessories delivered with the product are not returned along with the product in undamaged and unaltered condition.
+Return is not eligible if the product has been altered, unless a vendor defect is proven.
+Return is not eligible for electronics if the product is not sealed in the poly jiffy bag provided by Reliance.
+Return is not eligible for precious materials or accessories such as watches if the returned product is fake, counterfeit, damaged, or altered.
+Return is not eligible if the return is not initiated against the order under which the product was bought or from the same account.
+Return is not eligible if the gifts accompanying the purchased product have not been returned or show signs of being used, washed, or defective.
+Return is not eligible if there is a foul odour, perfume, stains, dents, scratches, tears, or any form of damage or defect on the product not attributable to the seller.
+Return is not eligible if the product bought as a set is not returned as a complete set.
+Return is not eligible if the product is not in unused, undamaged, unwashed, and saleable condition.
+Return is not eligible if Reliance determines the product has been rendered defective, damaged, or unusable by the user.
+Return is not eligible if the user has breached any terms of this policy.
+Return is not eligible if damage to the product was caused by the user's improper wearing or safekeeping, modification, change, or depreciation in value for reasons attributable to the user.
+
+SECTION: NON-RETURNABLE PRODUCT CATEGORIES
+
+Item is not eligible for return if it belongs to the following categories: Swimwear, Fragrances and Deodorants, Home Fragrances, Hair Care, Innerwear, Shaving, Skin Care, Idols and Coins, Makeup, Beauty and Care, Mobile and Accessories, Music and Entertainment, Gadgets and Appliances, Tech Accessories, Smart Wearables, Bath and Laundry, Decor and Gifting, Home Needs, Kitchen and Dining, Beauty Appliances, some products in Night and Loungewear, Clothing Accessories like Gloves, Masks, and Handkerchiefs, Baby Care including only Feeding and Nursing, Bath Groom, and Diaper.
+Item is not eligible for return if it is classified as a Non-Returnable Product, except in cases of damaged in transit, incorrect product shipped, missing components, or empty sealed packages delivered.
+Return is eligible for Non-Returnable Products only if there are defects or deficiencies attributable to the seller and accepted by Reliance after due verification.
+Return for Non-Returnable Products is eligible only in cases of damaged in transit, incorrect product shipped, missing components, or empty sealed packages.
+Claim for Non-Returnable Product return must be submitted not later than 5 days from the date of delivery.
+
+SECTION: CATEGORY-WISE RETURN PERIODS
+
+Return is eligible for Apparel, Accessories, and Footwear within 10 days of delivery.
+Return is not eligible for Innerwear other than bras due to hygiene, personal care, wellness, and consumable nature of the product.
+Return is eligible for Sunglasses within 7 days of delivery.
+Return is eligible for Watches (analog and digital) within 7 days of delivery.
+Return is not eligible for Smart Watches.
+Return is not eligible for Hair Care Accessories, Oils and Spa, Hair Accessories, and Creative and Educational products due to hygiene, personal care, wellness, and consumable nature of the product.
+Return is eligible for Bags, Backpacks, Luggage, Trolley, Handbags, Wallets, Belts, and Travel Accessories within 10 days of delivery; exchange is not available for these products.
+Return is not eligible for Laptop Bags.
+Return is eligible for Rugs, Carpets, Dhurries, Curtains and Accessories, Cushions and Pillows, Covers and Protectors, Blankets, Dohars and Quilts, Furnishing Fabrics, Bedsheets, Kitchen Linen, Towels and Bath Robes, and Bath Mats within 7 days of delivery.
+Return is not eligible for Table Covers, Runners and Slipcovers, Home Fragrances, Table Napkins, Coasters, Cutlery, Serveware and Drinkware, Cookware, Bakeware, Kitchen Tools, Kitchen Organisers, Wall and Table Decor, Showpieces and Figurines, Stationery and Organisers, Festive Gifts, Gardening and Planters, Bath Curtains, Bathroom Accessories, and Housekeeping products due to hygiene, personal care, wellness, and consumable nature of the product.
+Return is not eligible for Home Essentials due to hygiene, personal care, wellness, and consumable nature of the product.
+Return is not eligible for Electronic Products including Smartphones, Jio MyFi devices, accessories, Smart Watches, Pen Drives, Hard Disks, Speakers, Power Banks, and similar products.
+Return is eligible for Silver Jewellery within 7 days of delivery.
+Return is not eligible for Gold and Silver Coins, Bars, and Idols.
+Return is eligible for Precious and Fashion Jewellery within 7 days of delivery.
+Return is eligible for Winterwear including Jackets, Blazers, Coats, Shrugs, Mufflers, Shawls, Wraps, Sweaters, Cardigans, Sweatshirts, and Hoodies within 10 days of delivery.
+Return is eligible for Sarees and Dress Material within 7 days of delivery.
+Return is eligible for Shawls and Wraps within 10 days of delivery.
+Return is not eligible for Toys and Baby Care products.
+
+SECTION: ELECTRONICS SPECIFIC RULES
+
+Return for electronics is eligible only in cases of damaged in transit, incorrect product shipped, or missing components, and not for any other reasons.
+Return for electronics is not eligible unless the product is specifically marked as returnable on the relevant product detail page.
+Return for Dead on Arrival electronics must be initiated within 48 hours of delivery.
+Item is not eligible for return for electronics if physical damage was caused by misuse, drops, liquid ingress after delivery, or unauthorized repair.
+Return for electronics manufacturing defect outside the Dead on Arrival window must be directed to the brand's authorized service center in the first instance.
+
+SECTION: BUNDLED PACKAGE RULES
+
+Return is eligible for a Bundled Package only if all products forming part of the Bundled Package are returned together.
+Return is not eligible for only one product from a Bundled Package while retaining other products from the same package.
+Return for a Bundled Package that includes a Non-Returnable Product must include all products except the Non-Returnable Product.
+
+SECTION: PARTIAL RETURN RULES
+
+Return is eligible for one or all products in an order except in the case of Bundled Packages.
+Return is not eligible for a partial return from a Bundled Package.
+
+SECTION: REFUND CONDITIONS
+
+Refund is issued when Reliance has received payment for the returned or cancelled product.
+Refund shall be processed within 7 to 10 business days from the date of Reliance receiving the returned product and verifying the defect or non-compliance.
+Refund is not eligible if the returned product does not satisfy the conditions specified in this policy upon Reliance's assessment.
+Refund shall be credited to the original payment mode used by the user or to the AJIO Wallet as chosen by the user.
+Refund for purchases made using AJIO Wallet shall be processed only into the user's AJIO Wallet.
+Refund for cash on delivery purchases shall be processed into the user's AJIO Wallet or the user's valid bank account as provided by the user to AJIO at the time of refund.
+Refund amount shall not include any shipping charges, convenience fees, or other charges.
+Refund of shipping charges is eligible only if the product was delivered with a defect or damage attributable to Reliance, and the user must claim the shipping charge refund within 7 days of receiving the refund for remaining amounts.
+Refund is not processed in cash under any circumstances.
+Refund amount credited to AJIO Wallet cannot be transferred to any other bank account or encashed.
+Refund is eligible for a Non-Returnable Product received in damaged or defective condition, subject to verification and examination by Reliance.
+
+SECTION: EXCESSIVE RETURNS
+
+Return is not eligible for a free convenience fee if the user has excessive returns; a standard convenience fee shall be charged for future orders.
+Convenience fee charged for excessive returns is non-refundable.
+Cash on delivery payment option is not eligible for users with high returns and unaccepted shipments.
+Account is not eligible for continued access if Reliance determines the user has wilfully violated policy terms and has exceptionally high returns.
+
+SECTION: SELF-SHIPMENT RETURNS
+
+Return by self-shipment is eligible only when Reliance's reverse logistics partner is unable to arrange a pickup.
+Refund is eligible for self-shipped returns only upon Reliance receiving the returned product in sellable condition and completing required quality checks.
+Refund is not eligible for self-shipped returns if the product is lost in transit, delayed, or damaged due to the user's chosen courier partner.
+Claim for self-shipped return requires the user to submit proof of delivery from the courier or postal agency if Reliance does not receive the returned product.
+
+SECTION: PRECIOUS MATERIALS AND ACCESSORIES
+
+Refund for accessories such as watches shall be processed only after the product reaches the brand showroom or warehouse and quality check is completed.
+Refund is not eligible if the user loses any certificate relating to a precious material product unless a fee of INR 500 is paid by the user.
+
+SECTION: EXCHANGE CONDITIONS
+
+Exchange is eligible only if the product delivered is of a different fit or size than ordered, or the fit or size does not fit the user and the user wants to try a different size of the same product.
+Exchange must be initiated within the Exchange Period specified on the product detail page.
+Exchange is not eligible if the user placed the order for a wrong product model, colour, or incorrect product.
+Exchange is not eligible for Non-Returnable Products including personalised products not suitable for return.
+Exchange is not eligible if the user fails to request exchange within the Exchange Period.
+Exchange is not eligible for Made to Order products.
+Exchange is not eligible if the product has been worn, washed, cleaned, or tampered with by the user.
+Exchange is not eligible if the price tag, bar code, brand tags, or original packaging has been altered, damaged, or discarded.
+Exchange is not eligible if the serial number, IMEI number, or bar code of the product does not match Reliance's records.
+Exchange is not eligible if accessories delivered with the product are not returned in undamaged and unaltered condition.
+Exchange is not eligible if the product has been altered unless a vendor defect is proven.
+Exchange is not eligible for electronics if the product is not sealed in the poly jiffy bag provided by Reliance.
+Exchange is not eligible for precious materials or accessories such as watches if the returned product is fake, counterfeit, or damaged.
+Exchange is not eligible if the exchange is not initiated against the order under which the product was bought or from the same account.
+Exchange is not eligible if accompanying gifts show signs of being used, washed, or are damaged or defective.
+Exchange is not eligible if there is a foul odour, perfume, stains, dents, scratches, tears, or damage on the product.
+Exchange is not eligible if the product bought as a set is not exchanged as a complete set.
+Exchange is not eligible if the product is not in unused, undamaged, unwashed, and saleable condition.
+Exchange is eligible only if stock of the same brand in the same product, fit, or size is available.
+Exchange is not eligible if the user has breached any terms of this policy.
+
+SECTION: LEGAL OVERRIDE
+
+Statutory consumer rights override platform policies.

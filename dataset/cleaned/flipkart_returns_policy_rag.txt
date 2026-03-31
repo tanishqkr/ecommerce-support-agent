@@ -1,0 +1,143 @@
+[DOCUMENT: Flipkart Order Cancellation and Return Policy]
+
+[SECTION: Cancellation Eligibility — Standard Orders]
+* Order is eligible for cancellation only if it has not yet been dispatched.
+* Order is not eligible for cancellation once it is out for delivery.
+* Order is eligible for rejection at the doorstep if already out for delivery.
+* Cancellation is eligible within the time window specified on the product page or order confirmation page.
+* Order is not eligible for free cancellation after the specified time window has passed.
+* Cancellation fee shall be charged if the order is cancelled after the specified free-cancellation window.
+* Refund is issued in full for prepaid orders when the seller cancels due to unforeseen circumstances.
+* Flipkart reserves the right to accept or reject any cancellation request.
+
+[SECTION: Cancellation Eligibility — Hyperlocal (MINUTES Delivery)]
+* Orders placed under the MINUTES delivery option are not eligible for self-serve cancellation.
+* Orders placed under the MINUTES delivery option are not eligible for self-serve refund.
+* Cancellation is eligible only if requested via a CX Agent under the following conditions:
+* Cancellation is eligible if the order could not be delivered within the estimated time displayed at order placement.
+* Cancellation is eligible if the order has not been picked up by the delivery partner.
+* Cancellation is eligible if the seller has not accepted the order for reasons not attributable to the customer.
+* Cancellation is eligible if Easy Doorstep Cancellation is applicable.
+* Refund is issued within 5 to 7 business days for cancellations initiated by Flipkart.
+* Customer is not charged for any order cancelled by Flipkart.
+
+[SECTION: General Returns — Governing Rules]
+* Return policy provided on the individual product page shall prevail over the general returns policy.
+* All products listed under a category may not have the same return policy.
+* Return for change of mind is eligible only if the product category allows remorse returns.
+* Flipkart reserves the right to restrict the number of returns per order unit after evaluation of defect.
+
+[SECTION: Return Window and Eligible Actions by Category — Standard]
+* Furniture and Home (Pet Supplies and Rest of Home, except Home Decor, Furnishing, Home Improvement Tools, Household Items): Return window is 10 days. Eligible action is Refund or Replacement.
+* Furniture requiring installation: Return is eligible only if the product has been installed by the brand's authorized personnel.
+* Furniture: Only one replacement shall be provided per order unit.
+* Furniture: If a defect is confirmed within the return window, refund or replacement of the same product is provided at no additional cost.
+* Furniture: If no defect is confirmed or the issue is not diagnosed within 10 days of delivery or installation, the customer is directed to the brand service centre.
+* Lifestyle (Watch, T-Shirt, Footwear, Sari, Short, Dress, Kid's Capri/Shorts/Tops, Men's Ethnic Wear/Shirt/Formals/Jeans/Clothing Accessory, Women's Ethnic Wear/Fabric/Blouse/Jean/Skirt/Trousers/Bra, Bags, Raincoat, Sunglass, Belt, Frame, Backpack, Suitcase, Luggage): Return window is 10 days. Eligible actions are Refund, Replacement, or Exchange.
+* Lifestyle (Jewellery, Footwear Accessories, Travel Accessories, Watch Accessories): Return window is 10 days. Eligible actions are Refund, Replacement, or Exchange.
+* Lifestyle WinterWear (sweatshirt, jacket, sweater, cardigan, kids thermal, pullover, windcheater, track suit, thermal, shawl, track top, glove, muffler, scarf, blazer, uniform sweatshirt, uniform blazer, kids muffler, kids mitten, shrug, poncho, uniform sweater, cap, waistcoat, leg warmer, legging, elder halloween costume): Return window is 10 days. Eligible actions are Refund, Replacement, or Exchange.
+* Medicine (Allopathy and Homeopathy): Return window is 2 days. Eligible action is Refund only.
+* Home Improvement Tools, Household Items, Home Decor, Furnishing: Return window is 7 days. Eligible actions are Refund or Replacement.
+* Books (All books): Return window is 7 days. Eligible action is Replacement only.
+* Sports Equipment (Racquet, ball, support, gloves, bags): Return window is 7 days. Eligible action is Replacement only.
+* Exercise and Fitness Equipment (Home Gym combos, dumbbell): Return window is 7 days. Eligible action is Replacement only.
+* Auto Accessories — Car and Bike accessories (helmets, car kit, media players): Return window is 7 days. Eligible action is Replacement only.
+* Replacement is eligible within 7 days only if the product is delivered in defective or damaged condition or is different from the ordered item.
+* Toys (Remote controlled, Learning, Stuffed): Return window is 7 days. Eligible action is Replacement only.
+* Stationery (Pens, Diary notebooks, Calculators): Return window is 7 days. Eligible action is Replacement only.
+* Musical Instruments (Microphones and Accessories, Guitars, Violins): Return window is 7 days. Eligible action is Replacement only.
+* Wind Instruments (Harmonicas, Flutes): Item is not eligible for return due to hygiene and personal wellness reasons.
+* Wind Instruments: Item is eligible for free replacement only if delivered in damaged or defective condition or different from the ordered item.
+* All Mobiles except Apple, Google, Motorola, Infinix, Redmi, MI, Vivo, POCO, Realme, Samsung: Return window is 7 days. Eligible action is Replacement only.
+* Electronics except Apple/Beats, Google, Realme, Samsung, JBL and Infinity, Epson, HP, Dell, Canon, MI, Dizo (Tablets, Laptops, Smart Watches): Return window is 7 days. Eligible action is Replacement only.
+* All Small Home Appliances except Chimney, Water Purifier, Fan, Geyser: Return window is 7 days. Eligible action is Replacement only.
+* Furniture (Hammock Swing and Stool): Return window is 7 days. Eligible action is Replacement only.
+* For 7-day Replacement Only items: Replacement is eligible only if a defect is confirmed within the 7-day return window.
+* For 7-day Replacement Only items: If no defect is confirmed or the issue is not diagnosed within 7 days of delivery, the customer is directed to the brand service centre.
+* For 7-day Replacement Only items: Only one replacement shall be provided per order unit.
+* Mobile (Apple, Google, Motorola, Infinix, Redmi, MI, Vivo, POCO, Realme, Samsung): Return window is 7 days. Eligible action is Service Centre Replacement or Repair only.
+* Electronics (Acer, AMKETTE, Apple/Beats, Bose, Brother, Canon, Compaq, CREATIVE, DELL, DIZO, Epson, Google, GoPro, GOVO, HP, INFINITY, JBL, Lenovo, LG, Lifelong, Mi, MOTOROLA, Nothing, OnePlus, OPPO, Panasonic, PHILIPS, Realme, REDMI, SAMSUNG, Sansui, Seagate, Sonos, SONY, Thomson, Total, Xiaomi — Tablets, Laptops, Smart Watches, Headphones, Speakers): Return window is 7 days. Eligible action is Service Centre Replacement or Repair only.
+* Large Appliances (Vu, LG, Godrej, Haier, IFB, Hindware, Glen, Faber, AGARO, Voltas, BOSCH, Pureit, PHILIPS, HAVELLS, Elica, BAJAJ, Kenstar, Eureka Forbes Aquasure, Aquaguard, LIVPURE, EUREKA FORBES, Crompton, Hindware Snowcrest, Hindware Calisto, Eurodomo, Symphony, Hindware Atlantic, ONIDA, CANDY, Llyod, Voltas Beko, realme, Daikin, CARRIER, Mi, Midea, Whirlpool, Blue Star, Panasonic, Morphy Richards, iFFALCON, Hisense, TCL, TOSHIBA, Hitachi, Rockwell, KENT): Return window is 7 days. Eligible action is Service Centre Replacement or Repair only.
+* For Service Centre brands: Brand assistance is subject to brand warranty guidelines and service policies.
+* For Service Centre brands: Final decision on replacement of defective device rests with the seller or brand, not Flipkart.
+* For Samsung DOA cases: Replacement is eligible only if a DOA certificate of approval from Samsung brand is shared with Flipkart customer support.
+* Furniture and Large Appliances (except the Service Centre brands listed above) and Rest of Small Home Appliances (Chimney, Water Purifier, Fan, Geyser only): Return window is 10 days. Eligible action is Replacement only.
+* For 10-day Replacement Only items requiring installation: Return is eligible only if the product has been installed by the brand's authorized personnel.
+* For 10-day Replacement Only items: Replacement is eligible only if a defect is confirmed within the 10-day return window.
+* For 10-day Replacement Only items: If no defect is confirmed or the issue is not diagnosed within 10 days of delivery or installation, the customer is directed to the brand service centre.
+* For 10-day Replacement Only items: Only one replacement shall be provided per order unit.
+* Grocery (Excluding Minutes) — Dairy, Bakery, Fruits and Vegetables: Return window is 2 days. Eligible action is Refund only.
+* Grocery (Excluding Minutes) — Remaining items (pulses, atta, edible oil, and similar): Return window is 7 days. Eligible action is Refund only.
+
+[SECTION: No Questions Asked Return Policy]
+* Return window is 10 days. Eligible actions are Refund or Replacement.
+* Return is eligible only if the product was purchased when this policy was applicable to the product.
+* Only one replacement is eligible per order unit under this policy.
+* The following claims are not covered under No Questions Asked and must be handled through standard validation:
+* Claim for undelivered product is not eligible under No Questions Asked policy.
+* Claim for missing product or accessories is not eligible under No Questions Asked policy.
+* Claim for wrong product or accessories delivered is not eligible under No Questions Asked policy.
+
+[SECTION: Refurbished Products]
+* Return window is 7 days. Eligible action is Replacement only.
+* Replacement is eligible only if a defect is confirmed within 7 days of delivery.
+* If no defect is confirmed or the issue is not diagnosed within 7 days of delivery, the customer is directed to the warranty partner for subsequent issues.
+
+[SECTION: Non-Returnable Categories]
+* Item is not eligible for return if it belongs to a non-returnable category as marked on the product page.
+* Item is eligible for free replacement only if it is delivered in damaged or defective condition or is different from the ordered item, even if it belongs to a non-returnable category.
+* The following products are not eligible for return due to hygiene, health, personal care, or wellness reasons: diaper, bottle nipple, female urination device, women intimate care, teether soother, nipple puller, sanitary pad, pantyliner, condom, toothbrush, tampon, dental floss stick, toilet brush, cleaning glove, boxer, trunk, sock, panty.
+* Item is not eligible for return if it is a wind instrument (Harmonica, Flute) due to hygiene and personal wellness reasons.
+
+[SECTION: Return Pickup Conditions — Part 2]
+* Return pickup address change is eligible only if pickup service is available at the new address.
+* Return is eligible only if the product returned is the correct product (IMEI, name, image, brand, serial number, article number, barcode must match and MRP tag must be undetached and clearly visible).
+* Return is eligible only if the product is complete (all in-the-box accessories, freebies, and combos must be present).
+* Return is eligible only if the product is unused, unwashed, unsoiled, without stains, and with non-tampered quality check seals, return tags, and warranty seals where applicable.
+* Return is not eligible if a Mobile, Laptop, or Tablet has not been formatted and Screen Lock (Pin, Pattern, or Fingerprint) has not been disabled before return.
+* Return is not eligible if an Apple device has iCloud lock still enabled at the time of pickup.
+* Return is not eligible if the product is damaged with scratches, dents, tears, or holes (including SIM trays, charging port, headphone port, back panel).
+* Return is not eligible if the product's original packaging or box is damaged.
+* Field executive shall refuse to accept the return if any of the above pickup conditions are not met.
+* Refund is issued only after the returned product has been received by the seller.
+
+[SECTION: Special Conditions — General Rules for Returns]
+* If the seller is unable to process a replacement for any reason, a refund shall be issued instead.
+* If a product accessory is found missing, damaged, or defective, the seller shall either process a replacement of the accessory or issue an eGV equivalent to the price of the accessory.
+* During open box delivery: If a different or damaged product is received, refund is eligible on the spot (cash-on-delivery orders receive spot refund).
+* Return is not eligible after accepting an open box delivery, except for manufacturing defects.
+* For products where installation is provided by Flipkart's service partners: Return eligibility requires that the customer must not open the product packaging before Flipkart authorized personnel perform unboxing and installation.
+* For Furniture: Full replacement is eligible only if the authorized service personnel determines that replacing the faulty or defective part will not resolve the issue.
+* For Furniture: Authorized service personnel shall first attempt to resolve issues by replacing the faulty or defective part at no cost.
+
+[SECTION: Hyperlocal Returns — Category Windows and Actions]
+* Fresh Fruits, Vegetables, Milk: Return window is 1 day. Eligible action is Refund only.
+* Non-prescription medicines (Paracetamol, Diegene, Limcee, etc.): Return window is 1 day. Eligible action is Refund only.
+* Fresh Egg, Fish, Seafood, and Meat: Return window is 2 days. Eligible action is Refund only.
+* Fresh Bread, Cheese, Butter: Return window is 3 days. Eligible action is Refund only.
+* Grocery — Food and Nutrition (Pulses, Flour, cooking ingredients, Namkeen, etc.): Return window is 3 days. Eligible action is Refund only.
+* Grocery — Personal Care (Shampoo, Lotions, Soap, Face Wash, etc.): Return window is 3 days. Eligible action is Refund only.
+* Grocery — Other (Detergent, Washing Liquid, etc.): Return window is 3 days. Eligible action is Refund only.
+* Books (All books) — Hyperlocal: Return window is 7 days. Eligible action is Return only. Product must be intact with original accessories, user manual, and warranty cards in original packaging.
+* Sports Equipment (Hyperlocal): Return window is 7 days. Eligible action is Return only.
+* Toys (Hyperlocal): Return window is 7 days. Eligible action is Return only.
+* Stationery (Hyperlocal): Return window is 7 days. Eligible action is Return only.
+* Home Utensils (Cooker, Pan, etc.) — Hyperlocal: Return window is 7 days. Eligible action is Return only.
+* All Mobiles except Apple, Google, Motorola, Infinix, Redmi, MI, Vivo, POCO, Realme, Samsung — Hyperlocal: Return window is 7 days. Eligible action is Refund only.
+* Electronics except Apple/Beats, Google, Realme, Samsung, JBL and Infinity, Epson, HP, Dell, Canon, MI, Dizo — Hyperlocal: Return window is 7 days. Eligible action is Refund only.
+* All Small Home Appliances except Chimney, Water Purifier, Fan, Geyser — Hyperlocal: Return window is 7 days. Eligible action is Refund only.
+* For 7-day Refund Only electronics — Hyperlocal: If no defect is confirmed or the issue is not diagnosed within 7 days of delivery, the customer is directed to the brand service centre.
+* Mobile (Apple, Google, Motorola, Infinix, Redmi, MI, Vivo, POCO, Realme, Samsung) — Hyperlocal: Return window is 7 days. Eligible action is Service Centre Replacement or Repair only.
+* Electronics (Acer, AMKETTE, Apple/Beats, Bose, Brother, Canon, Compaq, CREATIVE, DELL, DIZO, Epson, Google, GoPro, GOVO, HP, INFINITY, JBL, Lenovo, LG, Lifelong, Mi, MOTOROLA, Nothing, OnePlus, OPPO, Panasonic, PHILIPS, Realme, REDMI, SAMSUNG, Sansui, Seagate, Sonos, SONY, Thomson, Total, Xiaomi — Tablets, Laptops, Smart Watches, Headphones, Speakers) — Hyperlocal: Return window is 7 days. Eligible action is Service Centre Replacement or Repair only.
+* Large Appliances (all listed Service Centre brands) — Hyperlocal: Return window is 7 days. Eligible action is Service Centre Replacement or Repair only.
+* For Service Centre brands — Hyperlocal: Final decision on replacement of defective device rests with the seller or brand, not Flipkart.
+* For Samsung DOA cases — Hyperlocal: Replacement is eligible only if a DOA certificate of approval from Samsung is shared with Flipkart customer support.
+* Home (Bedsheet, Pet Food, Furnishings, Home Decor, etc.) — Hyperlocal: Return window is 7 days. Eligible action is Refund only.
+* Home requiring installation — Hyperlocal: Return is eligible only if the product has been installed by brand authorized personnel.
+* Lifestyle (Watch, T-Shirt, Footwear, Sari, Short, Dress, etc.) — Hyperlocal: Return window is 10 days. Eligible action is Refund only.
+* Lifestyle (Jewellery, Footwear Accessories, Travel Accessories, Watch Accessories) — Hyperlocal: Return window is 10 days. Eligible action is Refund only.
+* Lifestyle WinterWear — Hyperlocal: Return window is 10 days. Eligible action is Refund only.
+* Prescription Medicines (antibiotics, pain killers, etc.) — Hyperlocal: Return window is 3 days. Eligible action is Refund only.
+* Prescription Medicines — Hyperlocal: Return is eligible for damaged, wrong, or expired products only.
+* The following products are not eligible for return under Hyperlocal policy: diaper, bottle nipple, female urination device, women intimate care, teether soother, nipple puller, sanitary pad, pantyliner, condom, toothbrush, tampon, dental floss stick, toilet brush, cleaning glove, boxer, trunk, sock, panty.
+* Damaged or wrong delivery of non-returnable products under Hyperlocal may be accepted on a case-by-case basis within 5 days of delivery.

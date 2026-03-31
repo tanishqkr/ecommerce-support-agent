@@ -1,0 +1,81 @@
+DOCUMENT: DAMAGED AND DEFECTIVE GOODS POLICY
+
+SECTION: DEFINITIONS
+
+Damaged goods means products that sustain physical harm during transit, storage, or last-mile delivery, including broken or cracked components, crushed or torn packaging resulting in product compromise, water or moisture ingress, bent or warped structural elements, and leaking or spilled contents.
+Defective goods means products that fail to function as described or represented due to a fault originating from the manufacturing, assembly, or quality control process, including failure to power on or initialize, missing factory-installed components, incorrect assembly, sub-standard materials causing premature failure under normal use, and software or firmware faults on electronic products.
+Dead on arrival means an electronic or mechanical product that fails to function at all upon first attempted use without any user-induced damage.
+Cosmetic damage means superficial non-functional imperfections including minor scratches, scuffs, or dents that do not impair the product's performance.
+Replacement means the dispatch of a new equivalent product in lieu of a refund at the customer's election or as determined by platform policy.
+
+SECTION: ELIGIBILITY RULES
+
+Refund or replacement is mandatory for all verified cases of damage or defect.
+Refund is not eligible to be denied where damage or defect has been confirmed through the inspection process.
+Customer shall have the right to elect either a full refund or a replacement at the time of claim approval, subject to product availability.
+Refund is eligible if the elected replacement product is out of stock.
+Partial refund is eligible only where the customer elects to retain the damaged item and requests compensation for diminished value.
+
+SECTION: CLAIM INITIATION RULES
+
+Claim for damaged goods must be initiated within 48 hours of delivery for all product categories except electronics.
+Claim for defective goods must be initiated within 7 days of delivery for standard products.
+Claim for defective goods must be initiated within the applicable warranty period for electronics and appliances.
+Return is not eligible without first initiating a claim and receiving a Return Merchandise Authorization number from the platform.
+Unauthorized return submitted without a Return Merchandise Authorization number shall not be processed and may be rejected or returned to the customer.
+
+SECTION: ELECTRONICS AND APPLIANCES SPECIAL RULES
+
+Dead on arrival claim for electronics must be initiated within 48 hours of delivery.
+Platform shall arrange a technical inspection within 3 business days of dead on arrival claim initiation.
+Manufacturing defect claims for electronics outside the dead on arrival window but within the warranty period must be directed to the brand's authorized service center in the first instance.
+Platform-level claim for electronics manufacturing defect is eligible only if the authorized service center confirms the defect in writing.
+Item is not eligible for claim under this policy if physical damage to electronics was caused by misuse, drops, liquid ingress after delivery, or unauthorized repair.
+
+SECTION: EVIDENCE REQUIREMENTS
+
+Claim must include a minimum of three clear photographs showing the defect or damage from different angles.
+Claim must include at least one photograph showing the full product and at least one showing the specific area of damage or defect in close-up.
+Claim must include photographs of the outer delivery box or packaging as received including all visible damage to packaging.
+Claim must include a photograph of the product label, model number, and serial number for electronics and appliances.
+Claim for electronics must include a video demonstrating the defective behavior, with a minimum duration of 30 seconds and a maximum of 3 minutes.
+Platform must not reject a claim based solely on the absence of an unboxing video.
+Rejection must be supported by physical inspection findings.
+
+SECTION: NON-ELIGIBILITY EXCEPTIONS
+
+Item is not eligible for return if cosmetic damage was pre-disclosed in the product listing including open-box or refurbished items.
+Item is not eligible for return if damaged due to customer misuse, unauthorized modifications, or improper storage after delivery.
+Item is not eligible for return for normal wear and tear, consumable depletion, or end-of-life performance degradation.
+Digital products, software licenses, and downloadable content are not eligible for physical damage claims under this policy.
+Item is not eligible for damage or defect claims if sold explicitly as For Parts Only, Non-Functional, or As-Is, provided the non-functional status was clearly disclosed prior to purchase.
+
+SECTION: INSPECTION AND DECISION RULES
+
+Platform must issue a Return Merchandise Authorization number within 24 business hours of claim submission, or reject the claim with a stated reason.
+Platform must schedule a pickup from the delivery address within 2 business days of Return Merchandise Authorization issuance.
+Inspection must be completed within 2 business days of item receipt at the facility.
+Inspection shall classify the returned item as verified damaged or defective with claim approved, inconsistent with claim with partial resolution offered, or no defect found or customer-induced damage with claim rejected.
+Platform must provide a written inspection report citing specific findings if the inspection finds no defect or that damage was customer-induced.
+Inspection report must include the inspector's name, inspection date, and detailed observations.
+In cases of dispute between customer-submitted evidence and inspection findings, the platform shall escalate to a senior quality control reviewer whose determination shall be final subject to the customer's right to escalate under the Dispute Resolution Policy.
+
+SECTION: PROCESSING TIMELINES
+
+Damage claim must be submitted within 48 hours of delivery.
+Defect claim must be submitted within 7 days of delivery for standard products.
+Return Merchandise Authorization shall be issued within 24 business hours of claim submission.
+Pickup shall be scheduled within 2 business days of Return Merchandise Authorization issuance.
+Physical inspection shall be completed within 2 business days of item receipt at the facility.
+Claim decision shall be communicated within 1 business day of inspection completion.
+Refund initiation shall occur within 2 business days of claim approval.
+Replacement dispatch shall occur within 3 business days of claim approval.
+Refund credit to payment source shall occur within 3 to 7 business days depending on the bank.
+Claim rejection notification with inspection report shall be issued within 1 business day of inspection completion.
+Customer escalation must be submitted within 15 days of rejection notification.
+
+SECTION: LEGAL OVERRIDE
+
+Statutory consumer rights override platform policies.
+This policy operates alongside and does not restrict any statutory warranty or guarantee rights conferred by applicable consumer protection law.
+Platform's liability under this policy is limited to the order value of the damaged or defective item.

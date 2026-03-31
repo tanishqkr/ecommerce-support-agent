@@ -1,0 +1,88 @@
+[DOCUMENT: Amazon.in Returns Policy]
+
+[SECTION: General Return Eligibility]
+* Most items purchased from sellers on Amazon.in are eligible for return within the return window, except items explicitly identified as non-returnable.
+* An item is eligible for return within the applicable return window if it was received physically damaged.
+* An item is eligible for return within the applicable return window if it has missing parts or accessories.
+* An item is eligible for return within the applicable return window if it is defective.
+* An item is eligible for return within the applicable return window if it is different from its description on the product detail page.
+* Return is not eligible in cases of buyer's remorse including incorrect model ordered, incorrect color ordered, or incorrect product ordered.
+* Products marked as "non-returnable" on the product detail page are not eligible for return.
+* Products marked as "non-returnable" are eligible for a full refund or replacement only if a damaged, defective, or wrong item is delivered.
+* Amazon reserves the right to pick up a non-returnable product to ascertain damage or defect before issuing a refund or replacement.
+* Amazon reserves the right to warn, suspend, block, or terminate customer accounts found to misuse the return policy through excessive returns, cancellations, or non-acceptance of orders.
+
+[SECTION: Return Verification Conditions]
+* Return is processed only if the product was not damaged while in the customer's possession.
+* Return is processed only if the product returned is not different from what was shipped to the customer.
+* Return is processed only if the product is in original condition with the brand's or manufacturer's box, MRP tag intact, user manual, warranty card, and all original accessories.
+
+[SECTION: Electronics and Large Appliances — Special Return Process]
+* For Smartphone, Tablet, Laptop, Television, Air Conditioner, Refrigerator, Washing Machine, and Microwave, a technician visit shall be facilitated based on the customer's location pin code.
+* Resolution (repair, refund, or replacement) for electronics and large appliances is issued based on the technician's evaluation report.
+* Customers must remove all personal information from electronic devices that store personal data before returning.
+
+[SECTION: Inspection Service Condition]
+* Return is not eligible on grounds of wrong, damaged, or missing accessories if an Inspection Service was provided at delivery and the OTP was shared after verifying the product was not wrong, damaged, or missing accessories.
+
+[SECTION: Replacement Eligibility Rules]
+* A product is eligible for replacement only if the same seller has the exact same item in stock.
+* If the seller does not have the exact same product in stock and the product is eligible for replacement, a refund shall be issued instead of a replacement.
+
+[SECTION: International Customer Rules]
+* Products purchased by international customers are not eligible for returns.
+* International customers are eligible for refunds only.
+* International customers must contact customer service within 5 business days from the delivery date or estimated delivery date to claim a refund.
+* All product categories are non-returnable for international customers on export orders.
+
+[SECTION: Return Policy Types]
+* 7/10 Days Service Centre Replacement — For defective items, the customer must contact the brand service centre for resolution.
+* 7/10 Days Service Centre Replacement — Item is eligible for free replacement within 7 or 10 days of delivery only if the item is damaged or wrong.
+* 7/10 Days Service Centre Replacement — Item must be kept in original condition with MRP tags, user manual, warranty card, and original accessories to be eligible.
+* 7/10 Days Replacement by Brand — For defective items, resolution (repair or replacement) is issued based on the brand technician's evaluation report.
+* 7/10 Days Replacement by Brand — Item is eligible for free replacement within 7 or 10 days of delivery only if the item is damaged or wrong.
+* 7/10 Days Replacement by Brand — Item must be kept in original condition with MRP tags, user manual, warranty card, and original accessories to be eligible.
+* 7/10 Days Replacement — Item is eligible for free replacement within 7 or 10 days of delivery if the item is damaged, defective, or wrong.
+* 7/10 Days Replacement — Resolution is based on the technician's report where a technician visit is facilitated.
+* 10/30 Days Returnable — Item is eligible for free return or replacement within 10 or 30 days of delivery if the item is damaged, defective, or different.
+* 10/30 Days Returnable — Item is eligible for a full refund within 10 or 30 days of delivery.
+* 10/30 Days Returnable — Item must be in original condition with brand outer box, MRP tags, user manual, warranty cards, and original accessories to be eligible.
+* 10 Day Free Returns and Exchange — Item is eligible for return within 10 days of delivery.
+* 10 Day Free Returns and Exchange — Item is eligible for exchange for a different size or color only based on item availability.
+* 10 Day Free Returns and Exchange — Item is eligible for a full refund within 10 days of delivery.
+* Non-Returnable — Item is not eligible for return.
+* Non-Returnable — Item is eligible for a full refund or free replacement only if a damaged, defective, or wrong item is delivered.
+* Non-Returnable — Amazon reserves the right to pick up the item to ascertain damage or defect before issuing a refund or replacement.
+
+[SECTION: Amazon Digital Devices Return Policy]
+* Echo, Alexa, Fire TV Stick, Kindle E-Readers, and Amazon accessories for these devices are eligible for replacement only within 7 days of purchase.
+* Kindle Books are eligible for a refund only for accidental orders within 7 days of purchase.
+
+[SECTION: Alexa Paid Skills and In-Skill Purchases Return Policy]
+* Paid Skills are eligible for a full refund within 3 days of purchase only.
+* In-Skill one-time purchases and consumables are not eligible for return.
+* In-Skill subscription purchases are eligible for a full refund within 3 days of purchase only.
+
+[SECTION: Inspect and Buy Return Policy]
+* Products with an "Inspect and Buy" label are eligible for a refund only within 2 days of delivery.
+
+[SECTION: Seller-Fulfilled Specialty Categories]
+* Fine Art, Sports collectibles, Entertainment collectibles, and Coin collectibles — damage or defect must be reported to the seller within 10 days of delivery to be eligible for resolution.
+
+[SECTION: Customizable Products Return Policy]
+* Customizable products are not eligible for return.
+* Customizable products are eligible for a full refund only if a damaged item, defective item, or product with wrong customization is delivered.
+* Customizable product refund claims are eligible under A-to-Z Guarantee claims.
+
+[SECTION: Amazon Bazaar Return Policy]
+* All products on Amazon Bazaar have a uniform return window of 5 days from the date of delivery across most categories.
+* Inner wear, lingerie, and socks on Amazon Bazaar are not eligible for return due to hygiene, health, and personal care reasons.
+* Replacement is not eligible on Amazon Bazaar.
+* Variant or size-related exchange is not eligible on Amazon Bazaar.
+* Products marked as "Non-returnable" on the Amazon Bazaar detail page are not eligible for return.
+* For damaged, defective, or wrong items on Amazon Bazaar, a full refund shall be provided.
+* Amazon reserves the right to pick up the product to ascertain damage or defect before issuing a refund on Amazon Bazaar orders.
+
+[SECTION: Non-Returnable Product Damage Reporting]
+* If a non-returnable product is received in a damaged or defective condition, the claim must be submitted to Amazon within 5 days from the date of delivery.
+* A non-returnable product damage or defect claim submitted after 5 days from the date of delivery is not eligible for resolution.
