@@ -151,27 +151,28 @@ hr { border-color: #4a5568; }
 """, unsafe_allow_html=True)
 
 # ─────────────────────────────────────────────
-# HERO HEADER
+# HERO HEADER  (centered column)
 # ─────────────────────────────────────────────
-st.markdown("""
-<div class="hero">
-    <h1>🛒 Smart Support Agent</h1>
-    <p>Policy-grounded AI decisions with built-in compliance verification</p>
-</div>
-""", unsafe_allow_html=True)
+_pad_l, _center, _pad_r = st.columns([1, 2, 1])
+with _center:
+    st.markdown("""
+    <div class="hero">
+        <h1>🛒 Smart Support Agent</h1>
+        <p>Policy-grounded AI decisions with built-in compliance verification</p>
+    </div>
+    """, unsafe_allow_html=True)
 
-# ─────────────────────────────────────────────
-# MAIN INPUT
-# ─────────────────────────────────────────────
-st.markdown("#### 💬 Describe your issue")
-user_query = st.text_area(
-    label="",
-    placeholder="e.g. My camera arrived with a cracked lens. I'd like a refund.",
-    height=110,
-    label_visibility="collapsed"
-)
-
-run_btn = st.button("🔍 Resolve Issue")
+    # ─────────────────────────────────────────
+    # MAIN INPUT  (same centered column)
+    # ─────────────────────────────────────────
+    st.markdown("#### 💬 Describe your issue")
+    user_query = st.text_area(
+        label="",
+        placeholder="e.g. My camera arrived with a cracked lens. I'd like a refund.",
+        height=110,
+        label_visibility="collapsed"
+    )
+    run_btn = st.button("🔍 Resolve Issue")
 
 # ─────────────────────────────────────────────
 # RESOLUTION PIPELINE
@@ -185,9 +186,28 @@ if run_btn:
             resolution = result["resolution"]
             compliance = result["compliance"]
             decision = result["decision"]
+            state = result["state"]
+            clarifying_questions = result.get("clarifying_questions", [])
             decision_status = decision["status"]
 
         st.markdown("---")
+
+        # ── Clarifying Questions banner ──────────────
+        if clarifying_questions:
+            st.markdown(f"""
+            <div style="
+                background-color:#2d2005;
+                border-left:4px solid #f59e0b;
+                border-radius:10px;
+                padding:14px 18px;
+                margin-bottom:16px;
+            ">
+                <div style="font-weight:700; color:#fbbf24; margin-bottom:8px;">
+                    ⚠️ Clarifying Questions
+                </div>
+                {''.join(f'<div style="color:#fde68a; font-size:0.9rem; margin-bottom:4px;">• {q}</div>' for q in clarifying_questions)}
+            </div>
+            """, unsafe_allow_html=True)
 
         # ── Error gate ──────────────────────────────
         if "error" in resolution:
@@ -215,7 +235,22 @@ if run_btn:
             citations = resolution.get("citations", [])
             if citations:
                 for c in citations:
-                    st.info(c.get('policy_text', ''))
+                    source  = c.get("source", "Unknown")
+                    section = c.get("section", "")
+                    st.markdown(f"""
+                    <div style="
+                        background-color:#1e2a38;
+                        padding:12px;
+                        border-radius:10px;
+                        margin-bottom:10px;
+                        border-left:4px solid #4CAF50;
+                    ">
+                        <b>{c.get('policy_text', '')}</b><br>
+                        <span style="color:#9ecfff; font-size:12px;">
+                        📂 {source}{f' &bull; {section}' if section else ''}
+                        </span>
+                    </div>
+                    """, unsafe_allow_html=True)
             else:
                 st.markdown("_No citations returned._")
 
@@ -224,22 +259,88 @@ if run_btn:
             st.write(resolution.get('next_steps', '—'))
 
         with col_right:
-            # ── Decision ────────────────────────────────
-            st.subheader("🏷️ Decision")
-            st.metric("Status", decision_status)
-            st.write(f"Action: {decision.get('action', 'NONE')}")
-            st.write(f"Reason: {decision.get('reason', '—')}")
+            # ── Classification card ──────────────────────
+            intent     = state.get("intent", "Unknown")
+            confidence = state.get("confidence", None)
+            conf_html  = f'<div style="color:#9ca3af; margin-top:6px; font-size:0.8rem;">Confidence: <b>{confidence}</b></div>' if confidence else ""
+            st.markdown(f"""
+            <div style="
+                background-color:#1a1f2e;
+                padding:20px;
+                border-radius:12px;
+                text-align:center;
+                border:1px solid #2d3a55;
+                margin-bottom:15px;
+            ">
+                <div style="font-size:0.75rem; font-weight:700; letter-spacing:1px;
+                            text-transform:uppercase; color:#93c5fd; margin-bottom:8px;">
+                    🧠 Classification
+                </div>
+                <div style="font-size:1.3rem; font-weight:800; color:#60a5fa;">
+                    {intent}
+                </div>
+                {conf_html}
+            </div>
+            """, unsafe_allow_html=True)
 
-            # ── Compliance ──────────────────────────────
-            st.subheader("🛡️ Compliance")
-            if compliance["status"] == "PASS":
-                st.success("✅ Verified Response")
-            else:
-                st.error("❌ Issues Detected")
+            # ── Decision card ────────────────────────────
+            status_color = "#4CAF50" if decision_status in ("APPROVED", "FULL_REFUND", "PARTIAL_REFUND") else "#FF4B4B"
+            st.markdown(f"""
+            <div style="
+                background-color:#1f2937;
+                padding:20px;
+                border-radius:12px;
+                text-align:center;
+                border:1px solid #374151;
+                margin-bottom:15px;
+            ">
+                <div style="font-size:0.75rem; font-weight:700; letter-spacing:1px;
+                            text-transform:uppercase; color:#a8e6cf; margin-bottom:8px;">
+                    🏷️ Decision
+                </div>
+                <div style="font-size:1.8rem; font-weight:800; color:{status_color};">
+                    {decision_status}
+                </div>
+                <div style="color:#cbd5e0; margin-top:8px; font-size:0.9rem;">
+                    Action: <b>{decision.get('action', 'NONE')}</b>
+                </div>
+                <div style="color:#9ca3af; margin-top:6px; font-size:0.8rem;">
+                    {decision.get('reason', '')}
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+            # ── Compliance card ──────────────────────────
+            comp_color = "#4CAF50" if compliance["status"] == "PASS" else "#FF4B4B"
+            comp_bg    = "#14291f" if compliance["status"] == "PASS" else "#2d1515"
+            comp_border= "#2f855a" if compliance["status"] == "PASS" else "#9b2c2c"
+            comp_icon  = "✅" if compliance["status"] == "PASS" else "❌"
+            confidence = int(compliance['confidence_score'] * 100)
+            st.markdown(f"""
+            <div style="
+                background-color:{comp_bg};
+                padding:20px;
+                border-radius:12px;
+                text-align:center;
+                border:1px solid {comp_border};
+            ">
+                <div style="font-size:0.75rem; font-weight:700; letter-spacing:1px;
+                            text-transform:uppercase; color:#a8e6cf; margin-bottom:8px;">
+                    🛡️ Compliance
+                </div>
+                <div style="font-size:1.8rem; font-weight:800; color:{comp_color};">
+                    {comp_icon} {compliance['status']}
+                </div>
+                <div style="color:#cbd5e0; margin-top:8px; font-size:0.9rem;">
+                    Confidence: <b>{confidence}%</b>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+            # ── Compliance issues (if any) ───────────────
+            if compliance["status"] != "PASS":
                 for issue in compliance.get("issues", []):
                     st.warning(issue)
-
-            st.metric("Confidence", f"{int(compliance['confidence_score']*100)}%")
 
         st.markdown("---")
         # ── Raw JSON expandable ─────────────────────

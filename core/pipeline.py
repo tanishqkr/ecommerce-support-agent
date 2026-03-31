@@ -33,22 +33,38 @@ def run_full_pipeline(user_query: str):
         "order_id": "PIPELINE-001",
         "user_query": user_query,
         "normalized_query": normalized_query,
-        "order": {"product_name": "Unknown"},
+        "order": {
+            "order_date": "2026-03-20",
+            "delivery_date": "2026-03-25",
+            "item_category": "apparel" if any(w in normalized_query for w in ("shirt", "cloth", "apparel", "dress", "jeans")) else "electronics",
+            "fulfillment_type": "marketplace",
+            "shipping_region": "India",
+            "order_status": "delivered",
+            "product_name": "Unknown"
+        },
         "state": state,
         "decision": decision,
         "retrieved_policies": retrieved_policies
     }
 
-    # 7. PHASE 7 — RESOLUTION
+    # 7. CLARIFYING QUESTIONS
+    clarifying_questions = []
+    if not input_payload.get("retrieved_policies"):
+        clarifying_questions.append("Can you provide more details about the issue?")
+    if input_payload["order"].get("order_status") is None:
+        clarifying_questions.append("What is the current order status?")
+
+    # 8. PHASE 7 — RESOLUTION
     resolution = generate_resolution(input_payload)
 
-    # 8. PHASE 8 — COMPLIANCE
+    # 9. PHASE 8 — COMPLIANCE
     compliance = run_compliance_check(input_payload, resolution)
 
-    # 9. RETURN FINAL OUTPUT
+    # 10. RETURN FINAL OUTPUT
     return {
         "resolution": resolution,
         "compliance": compliance,
         "decision": decision,
-        "state": state
+        "state": state,
+        "clarifying_questions": clarifying_questions
     }
