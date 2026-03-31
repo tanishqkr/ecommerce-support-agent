@@ -1,0 +1,402 @@
+[
+  {
+    "query": "I want to return this dress, it doesn't fit me well.",
+    "order": {
+      "order_id": "ORD-101",
+      "product_name": "Floral Maxi Dress",
+      "category": "Apparel",
+      "price": 59.99,
+      "purchase_date": "2026-03-15",
+      "delivery_date": "2026-03-18",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "My item is broken and I need help.",
+    "order": {
+      "order_id": "ORD-102",
+      "product_name": "Ceramic Vase",
+      "category": "Home Decor",
+      "price": 25.00,
+      "purchase_date": "2026-03-20",
+      "delivery_date": null,
+      "return_window_days": 15,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "Where is my package?",
+    "order": {
+      "order_id": "ORD-103",
+      "product_name": "Wireless Mouse",
+      "category": null,
+      "price": 12.50,
+      "purchase_date": "2026-03-25",
+      "delivery_date": "2026-03-28",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "The price is wrong on my receipt.",
+    "order": {
+      "order_id": "ORD-104",
+      "product_name": "Standard Widget",
+      "category": "Tools",
+      "price": -10.00,
+      "purchase_date": "2026-03-10",
+      "delivery_date": "2026-03-12",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "I bought this tomorrow, can I cancel?",
+    "order": {
+      "order_id": "ORD-105",
+      "product_name": "Time Machine",
+      "category": "Gizmos",
+      "price": 999.99,
+      "purchase_date": "2026-04-15",
+      "delivery_date": "2026-04-20",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "Can I return this final sale item? It says returnable in the system.",
+    "order": {
+      "order_id": "ORD-106",
+      "product_name": "Clearance Boots",
+      "category": "Footwear",
+      "price": 45.00,
+      "purchase_date": "2026-02-01",
+      "delivery_date": "2026-02-05",
+      "return_window_days": 14,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": true
+    }
+  },
+  {
+    "query": "this is bad",
+    "order": {
+      "order_id": "ORD-107",
+      "product_name": "Generic Coffee",
+      "category": "Grocery",
+      "price": 8.99,
+      "purchase_date": "2026-03-29",
+      "delivery_date": "2026-03-30",
+      "return_window_days": 7,
+      "is_returnable": true,
+      "is_perishable": true,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "not satisfied",
+    "order": {
+      "order_id": "ORD-108",
+      "product_name": "Luxury Watch",
+      "category": "Jewelry",
+      "price": 1200.00,
+      "purchase_date": "2026-03-01",
+      "delivery_date": "2026-03-05",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "The screen is cracked. I want refund and replacement for this tablet.",
+    "order": {
+      "order_id": "ORD-109",
+      "product_name": "Pro Tablet 10",
+      "category": "Electronics",
+      "price": 499.00,
+      "purchase_date": "2026-03-20",
+      "delivery_date": "2026-03-22",
+      "return_window_days": 15,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "Today is March 31st and my window is 30 days from March 1st. Can I still return?",
+    "order": {
+      "order_id": "ORD-110",
+      "product_name": "Ergonomic Chair",
+      "category": "Furniture",
+      "price": 250.00,
+      "purchase_date": "2026-03-01",
+      "delivery_date": "2026-03-01",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "These grapes are rotten. I received them 4 weeks ago but just checked.",
+    "order": {
+      "order_id": "ORD-111",
+      "product_name": "Red Grapes",
+      "category": "Produce",
+      "price": 4.50,
+      "purchase_date": "2026-03-01",
+      "delivery_date": "2026-03-02",
+      "return_window_days": 2,
+      "is_returnable": true,
+      "is_perishable": true,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "I opened the seal of this underwear and tried it on, can I send it back?",
+    "order": {
+      "order_id": "ORD-112",
+      "product_name": "Cotton Briefs",
+      "category": "Underwear",
+      "price": 15.00,
+      "purchase_date": "2026-03-25",
+      "delivery_date": "2026-03-27",
+      "return_window_days": 30,
+      "is_returnable": false,
+      "is_perishable": false,
+      "is_hygiene_sensitive": true,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "The clearance blender I got arrived shattered. I know it's final sale but this is unfair.",
+    "order": {
+      "order_id": "ORD-113",
+      "product_name": "Smart Blender",
+      "category": "Appliances",
+      "price": 89.00,
+      "purchase_date": "2026-03-28",
+      "delivery_date": "2026-03-30",
+      "return_window_days": 0,
+      "is_returnable": false,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": true
+    }
+  },
+  {
+    "query": "I want refnd for my ordr becuse it brok.",
+    "order": {
+      "order_id": "ORD-114",
+      "product_name": "Glass Bowl",
+      "category": "Kitchen",
+      "price": 12.00,
+      "purchase_date": "2026-03-29",
+      "delivery_date": "2026-03-31",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "broken item give money back now",
+    "order": {
+      "order_id": "ORD-115",
+      "product_name": "Plastic Toy",
+      "category": "Toys",
+      "price": 5.00,
+      "purchase_date": "2026-03-30",
+      "delivery_date": "2026-03-31",
+      "return_window_days": 15,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "seeking reimbursement for faulty kit",
+    "order": {
+      "order_id": "ORD-116",
+      "product_name": "DIY Electronics Kit",
+      "category": "Hobbies",
+      "price": 45.50,
+      "purchase_date": "2026-03-10",
+      "delivery_date": "2026-03-15",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "get my cash back please",
+    "order": {
+      "order_id": "ORD-117",
+      "product_name": "Socks Pack",
+      "category": "Apparel",
+      "price": 10.00,
+      "purchase_date": "2026-03-20",
+      "delivery_date": "2026-03-24",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "",
+    "order": {
+      "order_id": "ORD-118",
+      "product_name": "Undefined Item",
+      "category": "Misc",
+      "price": 0.00,
+      "purchase_date": "2026-03-31",
+      "delivery_date": "2026-03-31",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": null,
+    "order": {
+      "order_id": "ORD-119",
+      "product_name": "Ghost Item",
+      "category": "Unknown",
+      "price": 0.01,
+      "purchase_date": "2026-03-31",
+      "delivery_date": "2026-03-31",
+      "return_window_days": 1,
+      "is_returnable": false,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "My delivery date is before I bought it? See the log.",
+    "order": {
+      "order_id": "ORD-120",
+      "product_name": "Retro Clock",
+      "category": "Decor",
+      "price": 30.00,
+      "purchase_date": "2026-03-30",
+      "delivery_date": "2026-03-25",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "Is there a limit for high value returns? I want to return this.",
+    "order": {
+      "order_id": "ORD-121",
+      "product_name": "Server Rack",
+      "category": "Enterprise",
+      "price": 15000.00,
+      "purchase_date": "2026-03-10",
+      "delivery_date": "2026-03-20",
+      "return_window_days": 14,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "I haven't even received it yet but I want to start a return.",
+    "order": {
+      "order_id": "ORD-122",
+      "product_name": "Winter Coat",
+      "category": "Apparel",
+      "price": 150.00,
+      "purchase_date": "2026-03-29",
+      "delivery_date": null,
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "The system says it isn't returnable but it ALSO says it isn't final sale. Why?",
+    "order": {
+      "order_id": "ORD-123",
+      "product_name": "Software License",
+      "category": "Digital",
+      "price": 50.00,
+      "purchase_date": "2026-03-15",
+      "delivery_date": "2026-03-15",
+      "return_window_days": 0,
+      "is_returnable": false,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "Hey so I was talking to my mom and she said the shirt I got from you guys is okay but actually I think it's too small and I might want to swap it or just get a credit for next time.",
+    "order": {
+      "order_id": "ORD-124",
+      "product_name": "T-Shirt",
+      "category": "Apparel",
+      "price": 20.00,
+      "purchase_date": "2026-03-28",
+      "delivery_date": "2026-03-30",
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  },
+  {
+    "query": "Change of plans, I want to cancel my order and change the shipping address for my other pending one.",
+    "order": {
+      "order_id": "ORD-125",
+      "product_name": "Hand Mixer",
+      "category": "Appliances",
+      "price": 35.00,
+      "purchase_date": "2026-03-31",
+      "delivery_date": null,
+      "return_window_days": 30,
+      "is_returnable": true,
+      "is_perishable": false,
+      "is_hygiene_sensitive": false,
+      "is_final_sale": false
+    }
+  }
+]

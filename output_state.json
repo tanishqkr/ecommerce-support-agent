@@ -1,0 +1,1190 @@
+[
+  {
+    "order_id": "ORD-101",
+    "normalized": {
+      "query": "i want to return this dress, it doesn't fit me well.",
+      "order": {
+        "order_id": "ORD-101",
+        "product_name": "Floral Maxi Dress",
+        "category": "Apparel",
+        "price": 59.99,
+        "purchase_date": "2026-03-15",
+        "delivery_date": "2026-03-18",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 13,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "SIZE_ISSUE",
+      "request_type": "RETURN",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.85
+    }
+  },
+  {
+    "order_id": "ORD-102",
+    "normalized": {
+      "query": "my item is brokenen and i need help.",
+      "order": {
+        "order_id": "ORD-102",
+        "product_name": "Ceramic Vase",
+        "category": "Home Decor",
+        "price": 25.0,
+        "purchase_date": "2026-03-20",
+        "delivery_date": null,
+        "return_window_days": 15,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [
+        "NO_DELIVERY_DATA"
+      ],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": false,
+      "days_since_delivery": null,
+      "within_return_window": false,
+      "can_initiate_return": false,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "PRODUCT_ISSUE",
+      "issue_type": "DAMAGED",
+      "request_type": "UNKNOWN",
+      "flow_type": "PRE_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.9
+    }
+  },
+  {
+    "order_id": "ORD-103",
+    "normalized": {
+      "query": "where is my package?",
+      "order": {
+        "order_id": "ORD-103",
+        "product_name": "Wireless Mouse",
+        "category": null,
+        "price": 12.5,
+        "purchase_date": "2026-03-25",
+        "delivery_date": "2026-03-28",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [
+        "MISSING_CATEGORY"
+      ],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 3,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "DELIVERY_ISSUE",
+      "issue_type": "NOT_DELIVERED",
+      "request_type": "TRACK",
+      "flow_type": "DELIVERY_TRACKING",
+      "priority": "NORMAL",
+      "confidence": 0.75
+    }
+  },
+  {
+    "order_id": "ORD-104",
+    "normalized": {
+      "query": "the price is wrong on my receipt.",
+      "order": {
+        "order_id": "ORD-104",
+        "product_name": "Standard Widget",
+        "category": "Tools",
+        "price": -10.0,
+        "purchase_date": "2026-03-10",
+        "delivery_date": "2026-03-12",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": false,
+      "hard_errors": [
+        "NEGATIVE_PRICE"
+      ],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 19,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "UNKNOWN",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "BLOCKED",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-105",
+    "normalized": {
+      "query": "i bought this tomorrow, can i cancel?",
+      "order": {
+        "order_id": "ORD-105",
+        "product_name": "Time Machine",
+        "category": "Gizmos",
+        "price": 999.99,
+        "purchase_date": "2026-04-15",
+        "delivery_date": "2026-04-20",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": false,
+      "hard_errors": [
+        "FUTURE_PURCHASE_DATE"
+      ],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": -20,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "CANCELLATION_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "CANCEL",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "BLOCKED",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-106",
+    "normalized": {
+      "query": "can i return this final sale item? it says returnable in the system.",
+      "order": {
+        "order_id": "ORD-106",
+        "product_name": "Clearance Boots",
+        "category": "Footwear",
+        "price": 45.0,
+        "purchase_date": "2026-02-01",
+        "delivery_date": "2026-02-05",
+        "return_window_days": 14,
+        "is_returnable": false,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": true
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [
+        "FINAL_SALE_CONFLICT"
+      ],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [
+      "FINAL_SALE_OVERRIDE"
+    ],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 54,
+      "within_return_window": false,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "RETURN",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-107",
+    "normalized": {
+      "query": "this is bad",
+      "order": {
+        "order_id": "ORD-107",
+        "product_name": "Generic Coffee",
+        "category": "Grocery",
+        "price": 8.99,
+        "purchase_date": "2026-03-29",
+        "delivery_date": "2026-03-30",
+        "return_window_days": 7,
+        "is_returnable": true,
+        "is_perishable": true,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": [
+        "PERISHABLE_ITEM"
+      ]
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 1,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "UNKNOWN",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-108",
+    "normalized": {
+      "query": "not satisfied",
+      "order": {
+        "order_id": "ORD-108",
+        "product_name": "Luxury Watch",
+        "category": "Jewelry",
+        "price": 1200.0,
+        "purchase_date": "2026-03-01",
+        "delivery_date": "2026-03-05",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 26,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "CUSTOMER_DISSATISFACTION",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "NORMAL",
+      "confidence": 0.85
+    }
+  },
+  {
+    "order_id": "ORD-109",
+    "normalized": {
+      "query": "the screen is cracked. i want refund and replacement for this tablet.",
+      "order": {
+        "order_id": "ORD-109",
+        "product_name": "Pro Tablet 10",
+        "category": "Electronics",
+        "price": 499.0,
+        "purchase_date": "2026-03-20",
+        "delivery_date": "2026-03-22",
+        "return_window_days": 15,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 9,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": true,
+      "is_return_flow": true,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REFUND_REQUEST",
+      "issue_type": "DAMAGED",
+      "request_type": "REFUND",
+      "flow_type": "POST_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.7
+    }
+  },
+  {
+    "order_id": "ORD-110",
+    "normalized": {
+      "query": "today is march 31st and my window is 30 days from march 1st. can i still return?",
+      "order": {
+        "order_id": "ORD-110",
+        "product_name": "Ergonomic Chair",
+        "category": "Furniture",
+        "price": 250.0,
+        "purchase_date": "2026-03-01",
+        "delivery_date": "2026-03-01",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 30,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "RETURN",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-111",
+    "normalized": {
+      "query": "these grapes are rotten. i received them 4 weeks ago but just checked.",
+      "order": {
+        "order_id": "ORD-111",
+        "product_name": "Red Grapes",
+        "category": "Produce",
+        "price": 4.5,
+        "purchase_date": "2026-03-01",
+        "delivery_date": "2026-03-02",
+        "return_window_days": 2,
+        "is_returnable": true,
+        "is_perishable": true,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": [
+        "PERISHABLE_ITEM"
+      ]
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 29,
+      "within_return_window": false,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "PRODUCT_ISSUE",
+      "issue_type": "DAMAGED",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "HIGH",
+      "confidence": 0.9
+    }
+  },
+  {
+    "order_id": "ORD-112",
+    "normalized": {
+      "query": "i opened the seal of this underwear and tried it on, can i send it back?",
+      "order": {
+        "order_id": "ORD-112",
+        "product_name": "Cotton Briefs",
+        "category": "Underwear",
+        "price": 15.0,
+        "purchase_date": "2026-03-25",
+        "delivery_date": "2026-03-27",
+        "return_window_days": 30,
+        "is_returnable": false,
+        "is_perishable": false,
+        "is_hygiene_sensitive": true,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": [
+        "HYGIENE_ITEM"
+      ]
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 4,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "UNKNOWN",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-113",
+    "normalized": {
+      "query": "the clearance blender i got arrived shattered. i know it's final sale but this is unfair.",
+      "order": {
+        "order_id": "ORD-113",
+        "product_name": "Smart Blender",
+        "category": "Appliances",
+        "price": 89.0,
+        "purchase_date": "2026-03-28",
+        "delivery_date": "2026-03-30",
+        "return_window_days": 0,
+        "is_returnable": false,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": true
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": [
+        "ZERO_RETURN_WINDOW"
+      ]
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 1,
+      "within_return_window": false,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "PRODUCT_ISSUE",
+      "issue_type": "DAMAGED",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "HIGH",
+      "confidence": 0.9
+    }
+  },
+  {
+    "order_id": "ORD-114",
+    "normalized": {
+      "query": "i want refund for my order becuse it broken.",
+      "order": {
+        "order_id": "ORD-114",
+        "product_name": "Glass Bowl",
+        "category": "Kitchen",
+        "price": 12.0,
+        "purchase_date": "2026-03-29",
+        "delivery_date": "2026-03-31",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 0,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REFUND_REQUEST",
+      "issue_type": "DAMAGED",
+      "request_type": "REFUND",
+      "flow_type": "POST_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.9
+    }
+  },
+  {
+    "order_id": "ORD-115",
+    "normalized": {
+      "query": "brokenen item give money back now",
+      "order": {
+        "order_id": "ORD-115",
+        "product_name": "Plastic Toy",
+        "category": "Toys",
+        "price": 5.0,
+        "purchase_date": "2026-03-30",
+        "delivery_date": "2026-03-31",
+        "return_window_days": 15,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 0,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REFUND_REQUEST",
+      "issue_type": "DAMAGED",
+      "request_type": "REFUND",
+      "flow_type": "POST_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.9
+    }
+  },
+  {
+    "order_id": "ORD-116",
+    "normalized": {
+      "query": "seeking reimbursement for faulty kit",
+      "order": {
+        "order_id": "ORD-116",
+        "product_name": "DIY Electronics Kit",
+        "category": "Hobbies",
+        "price": 45.5,
+        "purchase_date": "2026-03-10",
+        "delivery_date": "2026-03-15",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 16,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": true
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REFUND_REQUEST",
+      "issue_type": "DAMAGED",
+      "request_type": "REFUND",
+      "flow_type": "POST_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.9
+    }
+  },
+  {
+    "order_id": "ORD-117",
+    "normalized": {
+      "query": "get my cash back please",
+      "order": {
+        "order_id": "ORD-117",
+        "product_name": "Socks Pack",
+        "category": "Apparel",
+        "price": 10.0,
+        "purchase_date": "2026-03-20",
+        "delivery_date": "2026-03-24",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 7,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REFUND_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "REFUND",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-118",
+    "normalized": {
+      "query": "",
+      "order": {
+        "order_id": "ORD-118",
+        "product_name": "Undefined Item",
+        "category": "Misc",
+        "price": 0.0,
+        "purchase_date": "2026-03-31",
+        "delivery_date": "2026-03-31",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": false,
+      "hard_errors": [
+        "EMPTY_QUERY"
+      ],
+      "soft_errors": [
+        "AMBIGUOUS_QUERY"
+      ],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": true,
+      "has_delivery": true,
+      "days_since_delivery": 0,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "UNKNOWN",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "NORMAL",
+      "confidence": 0.3
+    }
+  },
+  {
+    "order_id": "ORD-119",
+    "normalized": {
+      "query": "",
+      "order": {
+        "order_id": "ORD-119",
+        "product_name": "Ghost Item",
+        "category": "Unknown",
+        "price": 0.01,
+        "purchase_date": "2026-03-31",
+        "delivery_date": "2026-03-31",
+        "return_window_days": 1,
+        "is_returnable": false,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": false,
+      "hard_errors": [
+        "EMPTY_QUERY"
+      ],
+      "soft_errors": [
+        "AMBIGUOUS_QUERY"
+      ],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": true,
+      "has_delivery": true,
+      "days_since_delivery": 0,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "GENERAL_QUERY",
+      "issue_type": "UNKNOWN",
+      "request_type": "UNKNOWN",
+      "flow_type": "GENERAL_SUPPORT",
+      "priority": "NORMAL",
+      "confidence": 0.3
+    }
+  },
+  {
+    "order_id": "ORD-120",
+    "normalized": {
+      "query": "my delivery date is before i bought it? see the log.",
+      "order": {
+        "order_id": "ORD-120",
+        "product_name": "Retro Clock",
+        "category": "Decor",
+        "price": 30.0,
+        "purchase_date": "2026-03-30",
+        "delivery_date": "2026-03-25",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": false,
+      "hard_errors": [
+        "INVALID_DATE_ORDER"
+      ],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 6,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "DELIVERY_ISSUE",
+      "issue_type": "UNKNOWN",
+      "request_type": "TRACK",
+      "flow_type": "DELIVERY_TRACKING",
+      "priority": "BLOCKED",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-121",
+    "normalized": {
+      "query": "is there a limit for high value returns? i want to return this.",
+      "order": {
+        "order_id": "ORD-121",
+        "product_name": "Server Rack",
+        "category": "Enterprise",
+        "price": 15000.0,
+        "purchase_date": "2026-03-10",
+        "delivery_date": "2026-03-20",
+        "return_window_days": 14,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 11,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [
+      "HIGH_VALUE_ORDER"
+    ],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "RETURN",
+      "flow_type": "POST_DELIVERY",
+      "priority": "HIGH",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-122",
+    "normalized": {
+      "query": "i haven't even received it yet but i want to start a return.",
+      "order": {
+        "order_id": "ORD-122",
+        "product_name": "Winter Coat",
+        "category": "Apparel",
+        "price": 150.0,
+        "purchase_date": "2026-03-29",
+        "delivery_date": null,
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [
+        "NO_DELIVERY_DATA"
+      ],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": false,
+      "days_since_delivery": null,
+      "within_return_window": false,
+      "can_initiate_return": false,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "RETURN",
+      "flow_type": "PRE_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-123",
+    "normalized": {
+      "query": "the system says it isn't returnable but it also says it isn't final sale. why?",
+      "order": {
+        "order_id": "ORD-123",
+        "product_name": "Software License",
+        "category": "Digital",
+        "price": 50.0,
+        "purchase_date": "2026-03-15",
+        "delivery_date": "2026-03-15",
+        "return_window_days": 0,
+        "is_returnable": false,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": [
+        "ZERO_RETURN_WINDOW"
+      ]
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 16,
+      "within_return_window": false,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": true,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "RETURN_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "RETURN",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    }
+  },
+  {
+    "order_id": "ORD-124",
+    "normalized": {
+      "query": "hey so i was talking to my mom and she said the shirt i got from you guys is okay but actually i think it's too small and i might want to swap it or just get a credit for next time.",
+      "order": {
+        "order_id": "ORD-124",
+        "product_name": "T-Shirt",
+        "category": "Apparel",
+        "price": 20.0,
+        "purchase_date": "2026-03-28",
+        "delivery_date": "2026-03-30",
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": true,
+      "days_since_delivery": 1,
+      "within_return_window": true,
+      "can_initiate_return": true,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "REPLACEMENT_REQUEST",
+      "issue_type": "SIZE_ISSUE",
+      "request_type": "REPLACEMENT",
+      "flow_type": "POST_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.85
+    }
+  },
+  {
+    "order_id": "ORD-125",
+    "normalized": {
+      "query": "change of plans, i want to cancel my order and change the shipping address for my other pending one.",
+      "order": {
+        "order_id": "ORD-125",
+        "product_name": "Hand Mixer",
+        "category": "Appliances",
+        "price": 35.0,
+        "purchase_date": "2026-03-31",
+        "delivery_date": null,
+        "return_window_days": 30,
+        "is_returnable": true,
+        "is_perishable": false,
+        "is_hygiene_sensitive": false,
+        "is_final_sale": false
+      }
+    },
+    "validation": {
+      "safe_to_process": true,
+      "hard_errors": [],
+      "soft_errors": [],
+      "conflicts": [
+        "NO_DELIVERY_DATA"
+      ],
+      "policy_flags": []
+    },
+    "resolved_conflicts": [],
+    "derived_flags": {
+      "query_empty": false,
+      "has_delivery": false,
+      "days_since_delivery": null,
+      "within_return_window": false,
+      "can_initiate_return": false,
+      "multi_intent": false,
+      "is_return_flow": false,
+      "has_issue_signal": false
+    },
+    "system_notes": [],
+    "state": {
+      "intent": "CANCELLATION_REQUEST",
+      "issue_type": "UNKNOWN",
+      "request_type": "CANCEL",
+      "flow_type": "PRE_DELIVERY",
+      "priority": "NORMAL",
+      "confidence": 0.65
+    }
+  }
+]
