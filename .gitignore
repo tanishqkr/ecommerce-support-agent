@@ -76,3 +76,5 @@ coverage.xml
 .dmypy.json
 dmypy.json
 .pytype/
+
+Documents/
